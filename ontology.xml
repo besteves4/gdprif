@@ -1,0 +1,2274 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://protect.oeg.fi.upm.es/def/gdprif#"
+     xml:base="https://protect.oeg.fi.upm.es/def/gdprif"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:odrl="http://www.w3.org/ns/odrl/2/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:gdprif="https://protect.oeg.fi.upm.es/def/gdprif#">
+    <owl:Ontology rdf:about="https://protect.oeg.fi.upm.es/def/gdprif">
+        <terms:creator>Beatriz Esteves</terms:creator>
+        <terms:creator>VÃ­ctor RodrÃ­guez Doncel</terms:creator>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-29</terms:issued>
+        <terms:license rdf:resource="http://purl.org/NET/rdflicense/cc-by4.0"/>
+        <terms:title xml:lang="en">GDPR Information flows</terms:title>
+        <vann:preferredNamespacePrefix>gdprif:</vann:preferredNamespacePrefix>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/action -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/action"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/attributedParty -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/attributedParty"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/attributingParty -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/attributingParty"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/consequence -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/consequence"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/constraint -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/constraint"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/contractedParty -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/contractedParty"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/contractingParty -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/contractingParty"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/leftOperand -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/leftOperand"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/obligation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/obligation"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/operator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/operator"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/permission -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/permission"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/refinement -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/refinement"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/rightOperand -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/rightOperand"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/target -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/target"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/informedParty -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/odrl/2/informedParty"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/informingParty -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/odrl/2/informingParty"/>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/odrl/2/informedParty"/>
+        <rdfs:comment xml:lang="en">Specifies the entity that answers to the right or obligation</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/odrl/2/informingParty"/>
+        <rdfs:comment xml:lang="en">Specifies the entity that requests the right or obligation</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#isTriggeredBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#isTriggeredBy">
+        <rdfs:comment xml:lang="en">Specifies the trigger event that determins the invoking of a right or obligation</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#requires -->
+
+
+    <owl:ObjectProperty rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#requires">
+        <rdfs:comment xml:lang="en">Specifies the informational items that need to be transmitted to comply with a certain right or obligation</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dpv#DataController -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dpv#DataController"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dpv#DataProcessor -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dpv#DataProcessor"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dpv#DataProtectionAuthority -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dpv#DataProtectionAuthority"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dpv#DataProtectionOfficer -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dpv#DataProtectionOfficer"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dpv#DataSubject -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dpv#DataSubject"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dpv#Recipient -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dpv#Recipient"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dpv#dpv:DataProcessor -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dpv#dpv:DataProcessor"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/Constraint -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/odrl/2/Constraint"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/Obligation -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/odrl/2/Obligation"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/Party -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/odrl/2/Party"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/Permission -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/odrl/2/Permission"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/Policy -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/odrl/2/Policy"/>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#CDB -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#CDB">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#CPr -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#CPr">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"/>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#DPIA -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#DPIA">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#DataController -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#DataController">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder"/>
+        <rdfs:label xml:lang="en">Data Controller</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#DataProcessor -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#DataProcessor">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder"/>
+        <rdfs:label xml:lang="en">Data Processor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#DataProtectionOfficer -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#DataProtectionOfficer">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder"/>
+        <rdfs:label xml:lang="en">Data Protection Officer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#DataSubject -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#DataSubject">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder"/>
+        <rdfs:label xml:lang="en">Data Subject</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"/>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#JC -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#JC">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#NDB -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#NDB">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#PC -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#PC">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RA -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RA">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RDM -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RDM">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RDP -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RDP">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RE -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RE">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RI1 -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RI1">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RI2 -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RI2">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RN -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RN">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RO -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RO">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RR -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RR">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RRP -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RRP">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"/>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#Recipient -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#Recipient">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder"/>
+        <rdfs:label xml:lang="en">Recipient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder"/>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#SupervisoryAuthority -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#SupervisoryAuthority">
+        <rdfs:subClassOf rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder"/>
+        <rdfs:label xml:lang="en">Supervisory Authority</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent -->
+
+
+    <owl:Class rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent"/>
+    
+
+
+    <!-- https://w3id.org/GDPRtEXT#JointController -->
+
+
+    <owl:Class rdf:about="https://w3id.org/GDPRtEXT#JointController"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#CDB -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#CDB">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#CPr -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#CPr">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#ComplianceMonitoring -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#ComplianceMonitoring">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent"/>
+        <rdfs:comment xml:lang="en">Supervisory authority checks the records od data controllers and processors for compliance monitoring.</rdfs:comment>
+        <rdfs:label xml:lang="en">Compliance Monitoring</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenControllerProcessor -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenControllerProcessor">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent"/>
+        <rdfs:comment xml:lang="en">Controller and processor establish a contract for the processing of personal data of the data subject.</rdfs:comment>
+        <rdfs:label xml:lang="en">Contract Between Controller and Processor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenJointControllers -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenJointControllers">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent"/>
+        <rdfs:comment xml:lang="en">Joint controllers establish a contract for the processing of personal data of the data subject.</rdfs:comment>
+        <rdfs:label xml:lang="en">Contract between Joint Controllers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#DPIA -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#DPIA">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#HighRiskDPIA -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#HighRiskDPIA">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent"/>
+        <rdfs:comment xml:lang="en">The Data Protection Impact Assessment indicates a high risk to the privacy of the data subjects involved.</rdfs:comment>
+        <rdfs:label xml:lang="en">High Risk DPIA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I1">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Controller Identity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I10 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I10">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Transfers to Third Countries</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I11 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I11">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Retention Period</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I12 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I12">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Data Subject Rights</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I13 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I13">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Right to Withdraw Consent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I14 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I14">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Right to Lodge a Complaint</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I15 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I15">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Statutory or Contractual Obligation Details</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I16 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I16">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Existence of Automated Decision Making</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I17 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I17">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Personal Data Categories</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I18 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I18">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Personal Data Source</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I19 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I19">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Grounds to Not Comply with Information Right</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I2">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Controller Contact Details</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I20 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I20">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Safeguards related to the Transfer to a Third Country</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I21 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I21">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Copy of Personal Data</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I22 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I22">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Request to Complete Incomplete Personal Data</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I23 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I23">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Grounds to Request Erasure of Data</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I24 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I24">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Technical Measures taken to Erase Data</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I25 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I25">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Recipient Contact Details</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I26 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I26">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Grounds to Not Comply with Right of Erasure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I27 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I27">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Grounds to Request Restriction of Processing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I28 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I28">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Transfer Data Directly between Controllers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I29 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I29">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Grounds to Not Comply with Right to Object</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I3">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Controller Representative Identity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I30 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I30">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Grounds to Not Comply with Right Not to be Subject to Decision Making</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I31 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I31">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Joint Controller Identity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I32 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I32">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Joint Controller Contact Details</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I33 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I33">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Responsabilities of Joint Controllers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I34 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I34">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Subject-matter of the Processing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I35 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I35">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Processing Duration</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I36 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I36">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Processing Categories</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I37 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I37">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Data Subject Categories</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I38 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I38">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Controller Obligations</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I39 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I39">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Processor Obligations</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I4">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Controller Representative Contact Details</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I40 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I40">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">DPO Identity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I41 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I41">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Technical and Organizational Security Measures</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I42 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I42">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Processor Identity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I43 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I43">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Processor Contact Details</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I44 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I44">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Processor Representative Identity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I45 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I45">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Processor Representative Contact Details</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I46 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I46">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Nature of Data Breach</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I47 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I47">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Approximate Number of Data Subjects</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I48 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I48">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Approximate Number of Personal Data Records</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I49 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I49">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Consequences of Personal Data  Breach</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I5 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I5">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">DPO Contact Details</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I50 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I50">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Measures to Address and Mitigate Effects of Data Breach</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I51 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I51">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Systematic Description of Processing Operations</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I52 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I52">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Assessment of the Necessity and Proportionality of the Processing Operations</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I53 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I53">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Assessment of the Risks to the Rights and Freedoms of Data Sujects</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I54 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I54">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Responsabilities of the Controller</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I55 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I55">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Responsabilities of the Processor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I56 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I56">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Means of Processing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I57 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I57">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Data Protection Impact Assessment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I6 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I6">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Purposes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I7 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I7">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Legal Basis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I8 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I8">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Legitimate Interests</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#I9 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#I9">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem"/>
+        <rdfs:label xml:lang="en">Recipients</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#JC -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#JC">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#LargeScaleProcessingOfSensitivePersonalData -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#LargeScaleProcessingOfSensitivePersonalData">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent"/>
+        <rdfs:comment xml:lang="en">Processing of sensitive personal data (Article 9) and criminal data (Article 10) on large scale.</rdfs:comment>
+        <rdfs:label xml:lang="en">Large Scale Processing of Sensitive Personal Data</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#NDB -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#NDB">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#PC -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#PC">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#PersonalDataBreach -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#PersonalDataBreach">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent"/>
+        <rdfs:comment xml:lang="en">Non authorized disclosure of personal data which may put in risk the privacy and rights of the data subject regarding its personal data.</rdfs:comment>
+        <rdfs:label xml:lang="en">Personal Data Breach</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RA -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RA">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RDM -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RDM">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RDP -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RDP">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RE -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RE">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RI1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RI1">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RI2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RI2">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RN -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RN">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RO -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RO">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RR -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RR">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#RRP -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RRP">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#SystematicAndExtensiveAutomatedProcessing -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#SystematicAndExtensiveAutomatedProcessing">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent"/>
+        <rdfs:comment xml:lang="en">Processing activities which rely on systematic and extensive automated decisions.</rdfs:comment>
+        <rdfs:label xml:lang="en">Systematic and Extensive Automated Processing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#SystematicMonitoringOfPublicAreas -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#SystematicMonitoringOfPublicAreas">
+        <rdf:type rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent"/>
+        <rdfs:comment xml:lang="en">Systematic monitoring of public areas on large scale.</rdfs:comment>
+        <rdfs:label xml:lang="en">Systematic Monitoring of Public Areas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent -->
+
+
+    <owl:NamedIndividual rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#CDB">
+        <rdfs:comment>Data controller must inform the data subject that a personal data breach occurred.</rdfs:comment>
+        <rdfs:label>Communication of a Data Breach to the Data Subject</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#NotifyDataSubjectOfBreach"/>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid1">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <odrl:informedParty>
+                    <rdf:Description rdf:nodeID="genid2">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataSubject"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </odrl:informedParty>
+                <odrl:informingParty>
+                    <rdf:Description rdf:nodeID="genid3">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </odrl:informingParty>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid4">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:rightOperand rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#PersonalDataBreach"/>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I40"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I46"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I49"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I5"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I50"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#CPr">
+        <rdfs:comment>Data controller has the permission to establish a contract with processors for the latter to carry out the processing of the personal data on behalf of them. Sub-processors can only be hired with the authorization of the controller and their obligations are the same as the ones established in the contract between controller and processor.</rdfs:comment>
+        <rdfs:label>Contract with Processors</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#AppointmentOfProcessors"/>
+        <odrl:permission>
+            <rdf:Description rdf:nodeID="genid5">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Permission"/>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/grantUse"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid6">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:rightOperand rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenControllerProcessor"/>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:contractedParty>
+                    <rdf:Description rdf:nodeID="genid7">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataProcessor"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </odrl:contractedParty>
+                <odrl:contractingParty>
+                    <rdf:Description rdf:nodeID="genid8">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </odrl:contractingParty>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I12"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I17"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I34"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I35"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I36"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I37"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I38"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I39"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I6"/>
+            </rdf:Description>
+        </odrl:permission>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation">
+        <rdfs:label xml:lang="en">Controller and Processor Obligation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#DPIA">
+        <rdfs:comment>Data controller has to draft a DPIA with the guidance of the data protection officer when doing automated evaluation of personal data, processing of sensitive categories of personal data or systematic monitoring of public areas.</rdfs:comment>
+        <rdfs:label>Data Protection Impact Assessment</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#FactorsForImpactAssessment"/>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid9">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <odrl:informedParty>
+                    <rdf:Description rdf:nodeID="genid10">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataProtectionOfficer"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </odrl:informedParty>
+                <odrl:informingParty>
+                    <rdf:Description rdf:nodeID="genid11">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </odrl:informingParty>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/modify"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid12">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/isAnyOf"/>
+                        <odrl:rightOperand>
+                            <rdf:Description/>
+                        </odrl:rightOperand>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I41"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I51"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I52"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I53"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I6"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I8"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight">
+        <rdfs:label xml:lang="en">Data Subject Right</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem">
+        <rdfs:label xml:lang="en">Informational Item</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#JC">
+        <rdfs:comment>Joint controllers have the obligation to inform the data subject about their responsabilities related to the processing of the data subject&apos;s personal data, including the responsabilities of each controller regarding the data subject&apos;s rights.</rdfs:comment>
+        <rdfs:label>Joint Controllers Responsabilities</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#LiabilityOfJointController"/>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid14">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <odrl:informedParty>
+                    <rdf:Description rdf:nodeID="genid15">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataSubject"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </odrl:informedParty>
+                <odrl:informingParty>
+                    <rdf:Description rdf:nodeID="genid16">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                        <rdf:type rdf:resource="https://w3id.org/GDPRtEXT#JointController"/>
+                    </rdf:Description>
+                </odrl:informingParty>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid17">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:rightOperand rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenJointControllers"/>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I31"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I32"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I33"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#NDB">
+        <rdfs:comment>Data controller has to report a personal data breach to the supervisory authority and in the case it happens to the data processor it should be reported to the data controller.</rdfs:comment>
+        <rdfs:label>Notification of a Data Breach to the Supervisory Authority</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#ReportDataBreach"/>
+        <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+        <odrl:constraint>
+            <rdf:Description rdf:nodeID="genid18">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                <odrl:rightOperand rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#PersonalDataBreach"/>
+            </rdf:Description>
+        </odrl:constraint>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid19">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <odrl:informedParty>
+                    <rdf:Description rdf:nodeID="genid20">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataProtectionAuthority"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </odrl:informedParty>
+                <odrl:informingParty>
+                    <rdf:Description rdf:nodeID="genid21">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </odrl:informingParty>
+            </rdf:Description>
+        </odrl:obligation>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid22">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <odrl:informedParty>
+                    <rdf:Description rdf:nodeID="genid23">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </odrl:informedParty>
+                <odrl:informingParty>
+                    <rdf:Description rdf:nodeID="genid24">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#dpv:DataProcessor"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </odrl:informingParty>
+                <odrl:consequence>
+                    <rdf:Description rdf:nodeID="genid25">
+                        <odrl:informedParty>
+                            <rdf:Description rdf:nodeID="genid26">
+                                <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataProtectionAuthority"/>
+                                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                            </rdf:Description>
+                        </odrl:informedParty>
+                        <odrl:informingParty>
+                            <rdf:Description rdf:nodeID="genid27">
+                                <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                            </rdf:Description>
+                        </odrl:informingParty>
+                        <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                    </rdf:Description>
+                </odrl:consequence>
+            </rdf:Description>
+        </odrl:obligation>
+        <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I17"/>
+        <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I37"/>
+        <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I40"/>
+        <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I46"/>
+        <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I47"/>
+        <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I48"/>
+        <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I49"/>
+        <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I5"/>
+        <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I50"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#PC">
+        <rdfs:comment>Data controller has the obligation to consult with the supervisory authority when the DPIA illustrates that the processing will result in a high risk to the privacy of data subjects.</rdfs:comment>
+        <rdfs:label>Prior Consultation with the Supervisory Authority</rdfs:label>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid28">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <isAnsweredBy>
+                    <rdf:Description rdf:nodeID="genid29">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataProtectionAuthority"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isAnsweredBy>
+                <isRequestedBy>
+                    <rdf:Description rdf:nodeID="genid30">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isRequestedBy>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid31">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:rightOperand rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#HighRiskDPIA"/>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I33"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I41"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I5"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I54"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I55"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I56"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I57"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I6"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RA">
+        <rdfs:comment>Data controller informs the data subject about its obligation to grant access to the data subject&apos;s personal data.</rdfs:comment>
+        <rdfs:label>Right of Access</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#RightToAccessPersonalData"/>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid32">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <isAnsweredBy>
+                    <rdf:Description rdf:nodeID="genid33">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isAnsweredBy>
+                <isRequestedBy>
+                    <rdf:Description rdf:nodeID="genid34">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataSubject"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isRequestedBy>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid35">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:rightOperand rdf:resource="http://www.w3.org/ns/dpv-gdpr#A15"/>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I11"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I12"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I14"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I16"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I17"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I18"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I20"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I21"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I6"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I9"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RDM">
+        <rdfs:comment>Data subject has the right to request the data controller to not be subjected to decisions based solely on automated processing, including profiling.</rdfs:comment>
+        <rdfs:label>Right to Object to Automated Decision Making</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#RightToNotBeEvaluatedThroughAutomatedProcessing"/>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid36">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <isAnsweredBy>
+                    <rdf:Description rdf:nodeID="genid37">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isAnsweredBy>
+                <isRequestedBy>
+                    <rdf:Description rdf:nodeID="genid38">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataSubject"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isRequestedBy>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid39">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:rightOperand rdf:resource="http://www.w3.org/ns/dpv-gdpr#A22"/>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I30"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RDP">
+        <rdfs:comment>Data controller has the obligation to provide a copy of data subject&apos;s personal data to the data subject and also to transmit it to other controllers upon request of the data subject.</rdfs:comment>
+        <rdfs:label>Right to Data Portability</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#RightOfDataPortability"/>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid40">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <isAnsweredBy>
+                    <rdf:Description rdf:nodeID="genid41">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isAnsweredBy>
+                <isRequestedBy>
+                    <rdf:Description rdf:nodeID="genid42">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataSubject"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isRequestedBy>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:consequence>
+                    <rdf:Description rdf:nodeID="genid43">
+                        <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/grantUse"/>
+                        <odrl:attributedParty>
+                            <rdf:Description rdf:nodeID="genid44">
+                                <rdf:type rdf:resource="http://www.w3.org/ns/dpv#Recipient"/>
+                                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                            </rdf:Description>
+                        </odrl:attributedParty>
+                        <odrl:attributingParty>
+                            <rdf:Description rdf:nodeID="genid45">
+                                <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                            </rdf:Description>
+                        </odrl:attributingParty>
+                        <odrl:refinement>
+                            <rdf:Description rdf:nodeID="genid46">
+                                <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                                <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/isAllOf"/>
+                                <odrl:rightOperand>
+                                    <rdf:Description/>
+                                </odrl:rightOperand>
+                            </rdf:Description>
+                        </odrl:refinement>
+                    </rdf:Description>
+                </odrl:consequence>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid48">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:rightOperand rdf:resource="http://www.w3.org/ns/dpv-gdpr#A20"/>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I21"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RE">
+        <rdfs:comment>Data controller has the obligation to erase the data subject&apos;s personal data upon a fundamented request.</rdfs:comment>
+        <rdfs:label>Right to Erasure</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#RightOfErasure"/>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid49">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <isAnsweredBy>
+                    <rdf:Description rdf:nodeID="genid50">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isAnsweredBy>
+                <isRequestedBy>
+                    <rdf:Description rdf:nodeID="genid51">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataSubject"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isRequestedBy>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid52">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/isAllOf"/>
+                        <odrl:rightOperand>
+                            <rdf:Description/>
+                        </odrl:rightOperand>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I24"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I25"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I26"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I9"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RI1">
+        <rdfs:comment xml:lang="en">Data controller has the obligation to provide information to the data subject regarding personal data directly collected from the data subject.</rdfs:comment>
+        <rdfs:label xml:lang="en">Right to be Informed (collected from the Data Subject)</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#RightToBasicInformationAboutProcessing"/>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid54">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <isAnsweredBy>
+                    <rdf:Description rdf:nodeID="genid55">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isAnsweredBy>
+                <isRequestedBy>
+                    <rdf:Description rdf:nodeID="genid56">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataSubject"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isRequestedBy>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid57">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:rightOperand rdf:resource="http://www.w3.org/ns/dpv-gdpr#A13"/>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I1"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I10"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I11"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I12"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I13"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I14"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I15"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I16"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I17"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I19"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I2"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I3"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I4"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I5"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I6"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I7"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I8"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I9"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RI2">
+        <rdfs:comment>Data controller has the obligation to provide information to the data subject regarding its personal data collected from other sources.</rdfs:comment>
+        <rdfs:label>Right to be Informed (collected from other sources)</rdfs:label>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid58">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <isAnsweredBy>
+                    <rdf:Description rdf:nodeID="genid59">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isAnsweredBy>
+                <isRequestedBy>
+                    <rdf:Description rdf:nodeID="genid60">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataSubject"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isRequestedBy>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid61">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:rightOperand rdf:resource="http://www.w3.org/ns/dpv-gdpr#A14"/>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I1"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I10"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I11"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I12"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I13"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I14"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I16"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I17"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I18"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I19"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I2"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I3"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I4"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I5"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I6"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I7"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I8"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I9"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RN">
+        <rdfs:comment>Data controller has the obligation to inform the data subject about the rectification, erasure or restriction of processing of its personal data and about any recipients to whom the personal data was disclosed to. The data controller also has to inform the recipients to whom the data was disclosed to so that they procede with the rectification, erasure or restriction of processing of the dat asubject&apos;s personal data.</rdfs:comment>
+        <rdfs:label>Right to be Notified</rdfs:label>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid62">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <isAnsweredBy>
+                    <rdf:Description rdf:nodeID="genid63">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isAnsweredBy>
+                <isRequestedBy>
+                    <rdf:Description rdf:nodeID="genid64">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataSubject"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isRequestedBy>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:consequence>
+                    <rdf:Description rdf:nodeID="genid65">
+                        <odrl:informedParty>
+                            <rdf:Description rdf:nodeID="genid66">
+                                <rdf:type rdf:resource="http://www.w3.org/ns/dpv#Recipient"/>
+                                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                            </rdf:Description>
+                        </odrl:informedParty>
+                        <odrl:informingParty>
+                            <rdf:Description rdf:nodeID="genid67">
+                                <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                            </rdf:Description>
+                        </odrl:informingParty>
+                        <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                    </rdf:Description>
+                </odrl:consequence>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid68">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:rightOperand rdf:resource="http://www.w3.org/ns/dpv-gdpr#A19"/>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I25"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I9"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RO">
+        <rdfs:comment>Data subject has the right to object to any processing performed by the data controller, including for direct marketing purposes</rdfs:comment>
+        <rdfs:label>Right to Object</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#RightToObjectToProcessing"/>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid69">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <isAnsweredBy>
+                    <rdf:Description rdf:nodeID="genid70">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isAnsweredBy>
+                <isRequestedBy>
+                    <rdf:Description rdf:nodeID="genid71">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataSubject"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isRequestedBy>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid72">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:rightOperand rdf:resource="http://www.w3.org/ns/dpv-gdpr#A21"/>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I29"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC">
+        <rdfs:comment>Data controller should provide a record of its processing activities to the supervisory authority upon request</rdfs:comment>
+        <rdfs:label>Records of Processing Activities of Data Controllers</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#MaintainRecordsOfProcessingActivities"/>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid73">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <isAnsweredBy>
+                    <rdf:Description rdf:nodeID="genid74">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isAnsweredBy>
+                <isRequestedBy>
+                    <rdf:Description rdf:nodeID="genid75">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataProtectionAuthority"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isRequestedBy>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid76">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:rightOperand rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#ComplianceMonitoring"/>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I1"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I10"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I11"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I17"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I2"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I20"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I3"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I31"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I32"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I37"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I4"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I40"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I41"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I5"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I6"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I9"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP">
+        <rdfs:comment>Data processor should provide a record of its processing activities to the supervisory authority upon request.</rdfs:comment>
+        <rdfs:label>Records of Processing Activities of Data Processors</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#MaintainRecordsOfProcessingActivities"/>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid77">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <isAnsweredBy>
+                    <rdf:Description rdf:nodeID="genid78">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataProcessor"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isAnsweredBy>
+                <isRequestedBy>
+                    <rdf:Description rdf:nodeID="genid79">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataProtectionAuthority"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isRequestedBy>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid80">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:rightOperand rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#ComplianceMonitoring"/>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I1"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I10"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I2"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I20"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I3"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I36"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I4"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I40"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I41"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I42"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I43"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I44"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I45"/>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I5"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RR">
+        <rdfs:comment>Data controller has the obligation to rectify the data subject&apos;s personal data upon request.</rdfs:comment>
+        <rdfs:label>Right to Rectification</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#RightToRectification"/>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid81">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <isAnsweredBy>
+                    <rdf:Description rdf:nodeID="genid82">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isAnsweredBy>
+                <isRequestedBy>
+                    <rdf:Description rdf:nodeID="genid83">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataSubject"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isRequestedBy>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid84">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:rightOperand rdf:resource="http://www.w3.org/ns/dpv-gdpr#A16"/>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I22"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#RRP">
+        <rdfs:comment>Data controller has the obligation to cease processing the data subject&apos;s personal data upon a fundamented request.</rdfs:comment>
+        <rdfs:label>Right to Restriction of Processing</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/GDPRtEXT#RightToRestrictProcessing"/>
+        <odrl:obligation>
+            <rdf:Description rdf:nodeID="genid85">
+                <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Obligation"/>
+                <isAnsweredBy>
+                    <rdf:Description rdf:nodeID="genid86">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataController"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isAnsweredBy>
+                <isRequestedBy>
+                    <rdf:Description rdf:nodeID="genid87">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dpv#DataSubject"/>
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Party"/>
+                    </rdf:Description>
+                </isRequestedBy>
+                <odrl:action rdf:resource="http://www.w3.org/ns/odrl/2/inform"/>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid88">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Constraint"/>
+                        <odrl:leftOperand rdf:resource="http://www.w3.org/ns/odrl/2/event"/>
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/isAllOf"/>
+                        <odrl:rightOperand>
+                            <rdf:Description/>
+                        </odrl:rightOperand>
+                    </rdf:Description>
+                </odrl:constraint>
+                <odrl:target rdf:resource="https://protect.oeg.fi.upm.es/def/gdprif#I25"/>
+            </rdf:Description>
+        </odrl:obligation>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder">
+        <rdfs:label xml:lang="en">GDPR Stakeholder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent">
+        <rdfs:label xml:lang="en">Trigger Event</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/ -->
+
+

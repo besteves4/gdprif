@@ -1,0 +1,2023 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/ns/odrl/2/informedParty" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://www.w3.org/ns/odrl/2/informingParty" : [ {
+    "@id" : "_:genid3"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I40"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I46"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I49"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I5"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I50"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataProtectionOfficer", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/isAnyOf"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid17"
+  } ],
+  "http://www.w3.org/ns/odrl/2/informedParty" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/ns/odrl/2/informingParty" : [ {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I31"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I32"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I33"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataSubject", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Party", "https://w3id.org/GDPRtEXT#JointController" ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenJointControllers"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#PersonalDataBreach"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/informedParty" : [ {
+    "@id" : "_:genid20"
+  } ],
+  "http://www.w3.org/ns/odrl/2/informingParty" : [ {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataSubject", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataProtectionAuthority", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/consequence" : [ {
+    "@id" : "_:genid25"
+  } ],
+  "http://www.w3.org/ns/odrl/2/informedParty" : [ {
+    "@id" : "_:genid23"
+  } ],
+  "http://www.w3.org/ns/odrl/2/informingParty" : [ {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/ns/dpv#dpv:DataProcessor", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid25",
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/informedParty" : [ {
+    "@id" : "_:genid26"
+  } ],
+  "http://www.w3.org/ns/odrl/2/informingParty" : [ {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataProtectionAuthority", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid31"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I33"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I41"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I5"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I54"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I55"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I56"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I57"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I6"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy" : [ {
+    "@id" : "_:genid29"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy" : [ {
+    "@id" : "_:genid30"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataProtectionAuthority", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#HighRiskDPIA"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid35"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I11"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I12"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I14"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I16"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I17"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I18"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I20"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I21"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I6"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I9"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy" : [ {
+    "@id" : "_:genid33"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy" : [ {
+    "@id" : "_:genid34"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataSubject", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "http://www.w3.org/ns/dpv-gdpr#A15"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid39"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I30"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy" : [ {
+    "@id" : "_:genid37"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy" : [ {
+    "@id" : "_:genid38"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataSubject", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "http://www.w3.org/ns/dpv-gdpr#A22"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#PersonalDataBreach"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/consequence" : [ {
+    "@id" : "_:genid43"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid48"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I21"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy" : [ {
+    "@id" : "_:genid41"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy" : [ {
+    "@id" : "_:genid42"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataSubject", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid43",
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/grantUse"
+  } ],
+  "http://www.w3.org/ns/odrl/2/attributedParty" : [ {
+    "@id" : "_:genid44"
+  } ],
+  "http://www.w3.org/ns/odrl/2/attributingParty" : [ {
+    "@id" : "_:genid45"
+  } ],
+  "http://www.w3.org/ns/odrl/2/refinement" : [ {
+    "@id" : "_:genid46"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/ns/dpv#Recipient", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid46",
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/isAllOf"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "_:genid47"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "http://www.w3.org/ns/dpv-gdpr#A20"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid52"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I24"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I25"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I26"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I9"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy" : [ {
+    "@id" : "_:genid50"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy" : [ {
+    "@id" : "_:genid51"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Permission" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/grantUse"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://www.w3.org/ns/odrl/2/contractedParty" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/ns/odrl/2/contractingParty" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I12"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I17"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I34"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I35"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I36"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I37"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I38"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I39"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I6"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataSubject", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/isAllOf"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "_:genid53"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid57"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I1"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I10"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I11"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I12"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I13"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I14"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I15"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I16"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I17"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I19"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I2"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I3"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I4"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I5"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I6"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I7"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I8"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I9"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy" : [ {
+    "@id" : "_:genid55"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy" : [ {
+    "@id" : "_:genid56"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataSubject", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "http://www.w3.org/ns/dpv-gdpr#A13"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid61"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I1"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I10"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I11"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I12"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I13"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I14"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I16"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I17"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I18"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I19"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I2"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I3"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I4"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I5"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I6"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I7"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I8"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I9"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy" : [ {
+    "@id" : "_:genid59"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy" : [ {
+    "@id" : "_:genid60"
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenControllerProcessor"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataSubject", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "http://www.w3.org/ns/dpv-gdpr#A14"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/consequence" : [ {
+    "@id" : "_:genid65"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid68"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I25"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I9"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy" : [ {
+    "@id" : "_:genid63"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy" : [ {
+    "@id" : "_:genid64"
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataSubject", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid65",
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/informedParty" : [ {
+    "@id" : "_:genid66"
+  } ],
+  "http://www.w3.org/ns/odrl/2/informingParty" : [ {
+    "@id" : "_:genid67"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/ns/dpv#Recipient", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "http://www.w3.org/ns/dpv-gdpr#A19"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid72"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I29"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy" : [ {
+    "@id" : "_:genid70"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy" : [ {
+    "@id" : "_:genid71"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataProcessor", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataSubject", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid72",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "http://www.w3.org/ns/dpv-gdpr#A21"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid76"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I1"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I10"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I11"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I17"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I2"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I20"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I3"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I31"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I32"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I37"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I4"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I40"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I41"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I5"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I6"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I9"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy" : [ {
+    "@id" : "_:genid74"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy" : [ {
+    "@id" : "_:genid75"
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataProtectionAuthority", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ComplianceMonitoring"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid80"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I1"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I10"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I2"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I20"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I3"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I36"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I4"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I40"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I41"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I42"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I43"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I44"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I45"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I5"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy" : [ {
+    "@id" : "_:genid78"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy" : [ {
+    "@id" : "_:genid79"
+  } ]
+}, {
+  "@id" : "_:genid78",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataProcessor", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid79",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataProtectionAuthority", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ComplianceMonitoring"
+  } ]
+}, {
+  "@id" : "_:genid81",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid84"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I22"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy" : [ {
+    "@id" : "_:genid82"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy" : [ {
+    "@id" : "_:genid83"
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid83",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataSubject", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/eq"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "http://www.w3.org/ns/dpv-gdpr#A16"
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid88"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I25"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy" : [ {
+    "@id" : "_:genid86"
+  } ],
+  "https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy" : [ {
+    "@id" : "_:genid87"
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataController", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid87",
+  "@type" : [ "http://www.w3.org/ns/dpv#DataSubject", "http://www.w3.org/ns/odrl/2/Party" ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Constraint" ],
+  "http://www.w3.org/ns/odrl/2/leftOperand" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/event"
+  } ],
+  "http://www.w3.org/ns/odrl/2/operator" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/isAllOf"
+  } ],
+  "http://www.w3.org/ns/odrl/2/rightOperand" : [ {
+    "@id" : "_:genid89"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/ns/odrl/2/Obligation" ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  }, {
+    "@id" : "http://www.w3.org/ns/odrl/2/modify"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid12"
+  } ],
+  "http://www.w3.org/ns/odrl/2/informedParty" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://www.w3.org/ns/odrl/2/informingParty" : [ {
+    "@id" : "_:genid11"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I41"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I51"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I52"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I53"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I6"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I8"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dpv#DataController",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dpv#DataProcessor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dpv#DataProtectionAuthority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dpv#DataProtectionOfficer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dpv#DataSubject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dpv#Recipient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dpv#dpv:DataProcessor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/Constraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/Obligation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/Party",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/Permission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/Policy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/action",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/attributedParty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/attributingParty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/consequence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/constraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/contractedParty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/contractingParty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/informedParty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/informingParty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/leftOperand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/obligation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/operator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/permission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/refinement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/rightOperand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/target",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Beatriz Esteves"
+  }, {
+    "@value" : "VÃ­ctor RodrÃ­guez Doncel"
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2021-01-29"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "http://purl.org/NET/rdflicense/cc-by4.0"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "GDPR Information flows"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "gdprif:"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.0.0"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#CDB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data controller must inform the data subject that a personal data breach occurred."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Communication of a Data Breach to the Data Subject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#NotifyDataSubjectOfBreach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#CPr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data controller has the permission to establish a contract with processors for the latter to carry out the processing of the personal data on behalf of them. Sub-processors can only be hired with the authorization of the controller and their obligations are the same as the ones established in the contract between controller and processor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Contract with Processors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#AppointmentOfProcessors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"
+  } ],
+  "http://www.w3.org/ns/odrl/2/permission" : [ {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ComplianceMonitoring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Supervisory authority checks the records od data controllers and processors for compliance monitoring."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Compliance Monitoring"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenControllerProcessor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Controller and processor establish a contract for the processing of personal data of the data subject."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Contract Between Controller and Processor"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenJointControllers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Joint controllers establish a contract for the processing of personal data of the data subject."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Contract between Joint Controllers"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Controller and Processor Obligation"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DPIA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data controller has to draft a DPIA with the guidance of the data protection officer when doing automated evaluation of personal data, processing of sensitive categories of personal data or systematic monitoring of public areas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Data Protection Impact Assessment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#FactorsForImpactAssessment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataController",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Controller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataProcessor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Processor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataProtectionOfficer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Protection Officer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataSubject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Subject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Subject Right"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#HighRiskDPIA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Data Protection Impact Assessment indicates a high risk to the privacy of the data subjects involved."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "High Risk DPIA"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Controller Identity"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transfers to Third Countries"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Retention Period"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Subject Rights"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Right to Withdraw Consent"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Right to Lodge a Complaint"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Statutory or Contractual Obligation Details"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Existence of Automated Decision Making"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Personal Data Categories"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Personal Data Source"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Grounds to Not Comply with Information Right"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Controller Contact Details"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Safeguards related to the Transfer to a Third Country"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Copy of Personal Data"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Request to Complete Incomplete Personal Data"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Grounds to Request Erasure of Data"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Technical Measures taken to Erase Data"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Recipient Contact Details"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Grounds to Not Comply with Right of Erasure"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Grounds to Request Restriction of Processing"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transfer Data Directly between Controllers"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Grounds to Not Comply with Right to Object"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Controller Representative Identity"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Grounds to Not Comply with Right Not to be Subject to Decision Making"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Joint Controller Identity"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Joint Controller Contact Details"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Responsabilities of Joint Controllers"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Subject-matter of the Processing"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Processing Duration"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Processing Categories"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Subject Categories"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Controller Obligations"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Processor Obligations"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Controller Representative Contact Details"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DPO Identity"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Technical and Organizational Security Measures"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Processor Identity"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Processor Contact Details"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Processor Representative Identity"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Processor Representative Contact Details"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Nature of Data Breach"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Approximate Number of Data Subjects"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Approximate Number of Personal Data Records"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Consequences of Personal Data  Breach"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DPO Contact Details"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Measures to Address and Mitigate Effects of Data Breach"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Systematic Description of Processing Operations"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Assessment of the Necessity and Proportionality of the Processing Operations"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Assessment of the Risks to the Rights and Freedoms of Data Sujects"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Responsabilities of the Controller"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Responsabilities of the Processor"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Means of Processing"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Protection Impact Assessment"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Purposes"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Legal Basis"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Legitimate Interests"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Recipients"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Informational Item"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#JC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Joint controllers have the obligation to inform the data subject about their responsabilities related to the processing of the data subject's personal data, including the responsabilities of each controller regarding the data subject's rights."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Joint Controllers Responsabilities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#LiabilityOfJointController"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#LargeScaleProcessingOfSensitivePersonalData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Processing of sensitive personal data (Article 9) and criminal data (Article 10) on large scale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Large Scale Processing of Sensitive Personal Data"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#NDB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data controller has to report a personal data breach to the supervisory authority and in the case it happens to the data processor it should be reported to the data controller."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Notification of a Data Breach to the Supervisory Authority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#ReportDataBreach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"
+  } ],
+  "http://www.w3.org/ns/odrl/2/action" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/inform"
+  } ],
+  "http://www.w3.org/ns/odrl/2/constraint" : [ {
+    "@id" : "_:genid18"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid19"
+  }, {
+    "@id" : "_:genid22"
+  } ],
+  "http://www.w3.org/ns/odrl/2/target" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I17"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I37"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I40"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I46"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I47"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I48"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I49"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I5"
+  }, {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#I50"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#PC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data controller has the obligation to consult with the supervisory authority when the DPIA illustrates that the processing will result in a high risk to the privacy of data subjects."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Prior Consultation with the Supervisory Authority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid28"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#PersonalDataBreach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Non authorized disclosure of personal data which may put in risk the privacy and rights of the data subject regarding its personal data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Personal Data Breach"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#RA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data controller informs the data subject about its obligation to grant access to the data subject's personal data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Right of Access"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#RightToAccessPersonalData"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid32"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#RDM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data subject has the right to request the data controller to not be subjected to decisions based solely on automated processing, including profiling."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Right to Object to Automated Decision Making"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#RightToNotBeEvaluatedThroughAutomatedProcessing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid36"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#RDP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data controller has the obligation to provide a copy of data subject's personal data to the data subject and also to transmit it to other controllers upon request of the data subject."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Right to Data Portability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#RightOfDataPortability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid40"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#RE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data controller has the obligation to erase the data subject's personal data upon a fundamented request."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Right to Erasure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#RightOfErasure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid49"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#RI1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Data controller has the obligation to provide information to the data subject regarding personal data directly collected from the data subject."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Right to be Informed (collected from the Data Subject)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#RightToBasicInformationAboutProcessing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid54"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#RI2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data controller has the obligation to provide information to the data subject regarding its personal data collected from other sources."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Right to be Informed (collected from other sources)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid58"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#RN",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data controller has the obligation to inform the data subject about the rectification, erasure or restriction of processing of its personal data and about any recipients to whom the personal data was disclosed to. The data controller also has to inform the recipients to whom the data was disclosed to so that they procede with the rectification, erasure or restriction of processing of the dat asubject's personal data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Right to be Notified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid62"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#RO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data subject has the right to object to any processing performed by the data controller, including for direct marketing purposes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Right to Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#RightToObjectToProcessing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid69"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data controller should provide a record of its processing activities to the supervisory authority upon request"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Records of Processing Activities of Data Controllers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#MaintainRecordsOfProcessingActivities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid73"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data processor should provide a record of its processing activities to the supervisory authority upon request."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Records of Processing Activities of Data Processors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#MaintainRecordsOfProcessingActivities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid77"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#RR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data controller has the obligation to rectify the data subject's personal data upon request."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Right to Rectification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#RightToRectification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid81"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#RRP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/odrl/2/Policy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data controller has the obligation to cease processing the data subject's personal data upon a fundamented request."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Right to Restriction of Processing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/GDPRtEXT#RightToRestrictProcessing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight"
+  } ],
+  "http://www.w3.org/ns/odrl/2/obligation" : [ {
+    "@id" : "_:genid85"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#Recipient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Recipient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "GDPR Stakeholder"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#SupervisoryAuthority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Supervisory Authority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#SystematicAndExtensiveAutomatedProcessing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Processing activities which rely on systematic and extensive automated decisions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Systematic and Extensive Automated Processing"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#SystematicMonitoringOfPublicAreas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Systematic monitoring of public areas on large scale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Systematic Monitoring of Public Areas"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Trigger Event"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Specifies the entity that answers to the right or obligation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/informedParty"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Specifies the entity that requests the right or obligation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/informingParty"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#isTriggeredBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Specifies the trigger event that determins the invoking of a right or obligation"
+  } ]
+}, {
+  "@id" : "https://protect.oeg.fi.upm.es/def/gdprif#requires",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Specifies the informational items that need to be transmitted to comply with a certain right or obligation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/GDPRtEXT#JointController",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

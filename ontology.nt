@@ -1,0 +1,1214 @@
+<https://protect.oeg.fi.upm.es/def/gdprif> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://protect.oeg.fi.upm.es/def/gdprif> <http://purl.org/dc/terms/creator> "Beatriz Esteves" .
+<https://protect.oeg.fi.upm.es/def/gdprif> <http://purl.org/dc/terms/creator> "VÃ­ctor RodrÃ­guez Doncel" .
+<https://protect.oeg.fi.upm.es/def/gdprif> <http://purl.org/dc/terms/issued> "2021-01-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://protect.oeg.fi.upm.es/def/gdprif> <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> .
+<https://protect.oeg.fi.upm.es/def/gdprif> <http://purl.org/dc/terms/title> "GDPR Information flows"@en .
+<https://protect.oeg.fi.upm.es/def/gdprif> <http://purl.org/vocab/vann/preferredNamespacePrefix> "gdprif:" .
+<https://protect.oeg.fi.upm.es/def/gdprif> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/action
+<http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/attributedParty
+<http://www.w3.org/ns/odrl/2/attributedParty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/attributingParty
+<http://www.w3.org/ns/odrl/2/attributingParty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/consequence
+<http://www.w3.org/ns/odrl/2/consequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/constraint
+<http://www.w3.org/ns/odrl/2/constraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/contractedParty
+<http://www.w3.org/ns/odrl/2/contractedParty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/contractingParty
+<http://www.w3.org/ns/odrl/2/contractingParty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/leftOperand
+<http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/obligation
+<http://www.w3.org/ns/odrl/2/obligation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/operator
+<http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/permission
+<http://www.w3.org/ns/odrl/2/permission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/refinement
+<http://www.w3.org/ns/odrl/2/refinement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/rightOperand
+<http://www.w3.org/ns/odrl/2/rightOperand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/target
+<http://www.w3.org/ns/odrl/2/target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/odrl/2/informedParty
+<http://www.w3.org/ns/odrl/2/informedParty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/informingParty
+<http://www.w3.org/ns/odrl/2/informingParty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy
+<https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/odrl/2/informedParty> .
+<https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the entity that answers to the right or obligation"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy
+<https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/odrl/2/informingParty> .
+<https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the entity that requests the right or obligation"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#isTriggeredBy
+<https://protect.oeg.fi.upm.es/def/gdprif#isTriggeredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://protect.oeg.fi.upm.es/def/gdprif#isTriggeredBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the trigger event that determins the invoking of a right or obligation"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#requires
+<https://protect.oeg.fi.upm.es/def/gdprif#requires> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://protect.oeg.fi.upm.es/def/gdprif#requires> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the informational items that need to be transmitted to comply with a certain right or obligation"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/dpv#DataController
+<http://www.w3.org/ns/dpv#DataController> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/dpv#DataProcessor
+<http://www.w3.org/ns/dpv#DataProcessor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/dpv#DataProtectionAuthority
+<http://www.w3.org/ns/dpv#DataProtectionAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/dpv#DataProtectionOfficer
+<http://www.w3.org/ns/dpv#DataProtectionOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/dpv#DataSubject
+<http://www.w3.org/ns/dpv#DataSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/dpv#Recipient
+<http://www.w3.org/ns/dpv#Recipient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/dpv#dpv:DataProcessor
+<http://www.w3.org/ns/dpv#dpv:DataProcessor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/odrl/2/Constraint
+<http://www.w3.org/ns/odrl/2/Constraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/odrl/2/Obligation
+<http://www.w3.org/ns/odrl/2/Obligation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/odrl/2/Party
+<http://www.w3.org/ns/odrl/2/Party> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/odrl/2/Permission
+<http://www.w3.org/ns/odrl/2/Permission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/odrl/2/Policy
+<http://www.w3.org/ns/odrl/2/Policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#CDB
+<https://protect.oeg.fi.upm.es/def/gdprif#CDB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#CDB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#CPr
+<https://protect.oeg.fi.upm.es/def/gdprif#CPr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#CPr> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation
+<https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#DPIA
+<https://protect.oeg.fi.upm.es/def/gdprif#DPIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#DPIA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#DataController
+<https://protect.oeg.fi.upm.es/def/gdprif#DataController> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#DataController> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder> .
+<https://protect.oeg.fi.upm.es/def/gdprif#DataController> <http://www.w3.org/2000/01/rdf-schema#label> "Data Controller"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#DataProcessor
+<https://protect.oeg.fi.upm.es/def/gdprif#DataProcessor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#DataProcessor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder> .
+<https://protect.oeg.fi.upm.es/def/gdprif#DataProcessor> <http://www.w3.org/2000/01/rdf-schema#label> "Data Processor"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#DataProtectionOfficer
+<https://protect.oeg.fi.upm.es/def/gdprif#DataProtectionOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#DataProtectionOfficer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder> .
+<https://protect.oeg.fi.upm.es/def/gdprif#DataProtectionOfficer> <http://www.w3.org/2000/01/rdf-schema#label> "Data Protection Officer"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#DataSubject
+<https://protect.oeg.fi.upm.es/def/gdprif#DataSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#DataSubject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder> .
+<https://protect.oeg.fi.upm.es/def/gdprif#DataSubject> <http://www.w3.org/2000/01/rdf-schema#label> "Data Subject"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight
+<https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem
+<https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#JC
+<https://protect.oeg.fi.upm.es/def/gdprif#JC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#JC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#NDB
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#PC
+<https://protect.oeg.fi.upm.es/def/gdprif#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#PC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RA
+<https://protect.oeg.fi.upm.es/def/gdprif#RA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RDM
+<https://protect.oeg.fi.upm.es/def/gdprif#RDM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RDM> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RDP
+<https://protect.oeg.fi.upm.es/def/gdprif#RDP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RDP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RE
+<https://protect.oeg.fi.upm.es/def/gdprif#RE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RE> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RI1
+<https://protect.oeg.fi.upm.es/def/gdprif#RI1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RI1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RI2
+<https://protect.oeg.fi.upm.es/def/gdprif#RI2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RI2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RN
+<https://protect.oeg.fi.upm.es/def/gdprif#RN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RN> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RO
+<https://protect.oeg.fi.upm.es/def/gdprif#RO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RO> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RR
+<https://protect.oeg.fi.upm.es/def/gdprif#RR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RRP
+<https://protect.oeg.fi.upm.es/def/gdprif#RRP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RRP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#Recipient
+<https://protect.oeg.fi.upm.es/def/gdprif#Recipient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#Recipient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder> .
+<https://protect.oeg.fi.upm.es/def/gdprif#Recipient> <http://www.w3.org/2000/01/rdf-schema#label> "Recipient"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder
+<https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#SupervisoryAuthority
+<https://protect.oeg.fi.upm.es/def/gdprif#SupervisoryAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://protect.oeg.fi.upm.es/def/gdprif#SupervisoryAuthority> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder> .
+<https://protect.oeg.fi.upm.es/def/gdprif#SupervisoryAuthority> <http://www.w3.org/2000/01/rdf-schema#label> "Supervisory Authority"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent
+<https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/GDPRtEXT#JointController
+<https://w3id.org/GDPRtEXT#JointController> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#CDB
+<https://protect.oeg.fi.upm.es/def/gdprif#CDB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#CDB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#CPr
+<https://protect.oeg.fi.upm.es/def/gdprif#CPr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#CPr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#ComplianceMonitoring
+<https://protect.oeg.fi.upm.es/def/gdprif#ComplianceMonitoring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#ComplianceMonitoring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent> .
+<https://protect.oeg.fi.upm.es/def/gdprif#ComplianceMonitoring> <http://www.w3.org/2000/01/rdf-schema#comment> "Supervisory authority checks the records od data controllers and processors for compliance monitoring."@en .
+<https://protect.oeg.fi.upm.es/def/gdprif#ComplianceMonitoring> <http://www.w3.org/2000/01/rdf-schema#label> "Compliance Monitoring"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenControllerProcessor
+<https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenControllerProcessor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenControllerProcessor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent> .
+<https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenControllerProcessor> <http://www.w3.org/2000/01/rdf-schema#comment> "Controller and processor establish a contract for the processing of personal data of the data subject."@en .
+<https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenControllerProcessor> <http://www.w3.org/2000/01/rdf-schema#label> "Contract Between Controller and Processor"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenJointControllers
+<https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenJointControllers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenJointControllers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent> .
+<https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenJointControllers> <http://www.w3.org/2000/01/rdf-schema#comment> "Joint controllers establish a contract for the processing of personal data of the data subject."@en .
+<https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenJointControllers> <http://www.w3.org/2000/01/rdf-schema#label> "Contract between Joint Controllers"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation
+<https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#DPIA
+<https://protect.oeg.fi.upm.es/def/gdprif#DPIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#DPIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight
+<https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#HighRiskDPIA
+<https://protect.oeg.fi.upm.es/def/gdprif#HighRiskDPIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#HighRiskDPIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent> .
+<https://protect.oeg.fi.upm.es/def/gdprif#HighRiskDPIA> <http://www.w3.org/2000/01/rdf-schema#comment> "The Data Protection Impact Assessment indicates a high risk to the privacy of the data subjects involved."@en .
+<https://protect.oeg.fi.upm.es/def/gdprif#HighRiskDPIA> <http://www.w3.org/2000/01/rdf-schema#label> "High Risk DPIA"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I1
+<https://protect.oeg.fi.upm.es/def/gdprif#I1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I1> <http://www.w3.org/2000/01/rdf-schema#label> "Controller Identity"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I10
+<https://protect.oeg.fi.upm.es/def/gdprif#I10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I10> <http://www.w3.org/2000/01/rdf-schema#label> "Transfers to Third Countries"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I11
+<https://protect.oeg.fi.upm.es/def/gdprif#I11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I11> <http://www.w3.org/2000/01/rdf-schema#label> "Retention Period"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I12
+<https://protect.oeg.fi.upm.es/def/gdprif#I12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I12> <http://www.w3.org/2000/01/rdf-schema#label> "Data Subject Rights"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I13
+<https://protect.oeg.fi.upm.es/def/gdprif#I13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I13> <http://www.w3.org/2000/01/rdf-schema#label> "Right to Withdraw Consent"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I14
+<https://protect.oeg.fi.upm.es/def/gdprif#I14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I14> <http://www.w3.org/2000/01/rdf-schema#label> "Right to Lodge a Complaint"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I15
+<https://protect.oeg.fi.upm.es/def/gdprif#I15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I15> <http://www.w3.org/2000/01/rdf-schema#label> "Statutory or Contractual Obligation Details"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I16
+<https://protect.oeg.fi.upm.es/def/gdprif#I16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I16> <http://www.w3.org/2000/01/rdf-schema#label> "Existence of Automated Decision Making"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I17
+<https://protect.oeg.fi.upm.es/def/gdprif#I17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I17> <http://www.w3.org/2000/01/rdf-schema#label> "Personal Data Categories"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I18
+<https://protect.oeg.fi.upm.es/def/gdprif#I18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I18> <http://www.w3.org/2000/01/rdf-schema#label> "Personal Data Source"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I19
+<https://protect.oeg.fi.upm.es/def/gdprif#I19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I19> <http://www.w3.org/2000/01/rdf-schema#label> "Grounds to Not Comply with Information Right"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I2
+<https://protect.oeg.fi.upm.es/def/gdprif#I2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I2> <http://www.w3.org/2000/01/rdf-schema#label> "Controller Contact Details"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I20
+<https://protect.oeg.fi.upm.es/def/gdprif#I20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I20> <http://www.w3.org/2000/01/rdf-schema#label> "Safeguards related to the Transfer to a Third Country"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I21
+<https://protect.oeg.fi.upm.es/def/gdprif#I21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I21> <http://www.w3.org/2000/01/rdf-schema#label> "Copy of Personal Data"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I22
+<https://protect.oeg.fi.upm.es/def/gdprif#I22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I22> <http://www.w3.org/2000/01/rdf-schema#label> "Request to Complete Incomplete Personal Data"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I23
+<https://protect.oeg.fi.upm.es/def/gdprif#I23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I23> <http://www.w3.org/2000/01/rdf-schema#label> "Grounds to Request Erasure of Data"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I24
+<https://protect.oeg.fi.upm.es/def/gdprif#I24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I24> <http://www.w3.org/2000/01/rdf-schema#label> "Technical Measures taken to Erase Data"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I25
+<https://protect.oeg.fi.upm.es/def/gdprif#I25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I25> <http://www.w3.org/2000/01/rdf-schema#label> "Recipient Contact Details"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I26
+<https://protect.oeg.fi.upm.es/def/gdprif#I26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I26> <http://www.w3.org/2000/01/rdf-schema#label> "Grounds to Not Comply with Right of Erasure"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I27
+<https://protect.oeg.fi.upm.es/def/gdprif#I27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I27> <http://www.w3.org/2000/01/rdf-schema#label> "Grounds to Request Restriction of Processing"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I28
+<https://protect.oeg.fi.upm.es/def/gdprif#I28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I28> <http://www.w3.org/2000/01/rdf-schema#label> "Transfer Data Directly between Controllers"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I29
+<https://protect.oeg.fi.upm.es/def/gdprif#I29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I29> <http://www.w3.org/2000/01/rdf-schema#label> "Grounds to Not Comply with Right to Object"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I3
+<https://protect.oeg.fi.upm.es/def/gdprif#I3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I3> <http://www.w3.org/2000/01/rdf-schema#label> "Controller Representative Identity"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I30
+<https://protect.oeg.fi.upm.es/def/gdprif#I30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I30> <http://www.w3.org/2000/01/rdf-schema#label> "Grounds to Not Comply with Right Not to be Subject to Decision Making"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I31
+<https://protect.oeg.fi.upm.es/def/gdprif#I31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I31> <http://www.w3.org/2000/01/rdf-schema#label> "Joint Controller Identity"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I32
+<https://protect.oeg.fi.upm.es/def/gdprif#I32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I32> <http://www.w3.org/2000/01/rdf-schema#label> "Joint Controller Contact Details"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I33
+<https://protect.oeg.fi.upm.es/def/gdprif#I33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I33> <http://www.w3.org/2000/01/rdf-schema#label> "Responsabilities of Joint Controllers"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I34
+<https://protect.oeg.fi.upm.es/def/gdprif#I34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I34> <http://www.w3.org/2000/01/rdf-schema#label> "Subject-matter of the Processing"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I35
+<https://protect.oeg.fi.upm.es/def/gdprif#I35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I35> <http://www.w3.org/2000/01/rdf-schema#label> "Processing Duration"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I36
+<https://protect.oeg.fi.upm.es/def/gdprif#I36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I36> <http://www.w3.org/2000/01/rdf-schema#label> "Processing Categories"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I37
+<https://protect.oeg.fi.upm.es/def/gdprif#I37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I37> <http://www.w3.org/2000/01/rdf-schema#label> "Data Subject Categories"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I38
+<https://protect.oeg.fi.upm.es/def/gdprif#I38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I38> <http://www.w3.org/2000/01/rdf-schema#label> "Controller Obligations"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I39
+<https://protect.oeg.fi.upm.es/def/gdprif#I39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I39> <http://www.w3.org/2000/01/rdf-schema#label> "Processor Obligations"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I4
+<https://protect.oeg.fi.upm.es/def/gdprif#I4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I4> <http://www.w3.org/2000/01/rdf-schema#label> "Controller Representative Contact Details"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I40
+<https://protect.oeg.fi.upm.es/def/gdprif#I40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I40> <http://www.w3.org/2000/01/rdf-schema#label> "DPO Identity"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I41
+<https://protect.oeg.fi.upm.es/def/gdprif#I41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I41> <http://www.w3.org/2000/01/rdf-schema#label> "Technical and Organizational Security Measures"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I42
+<https://protect.oeg.fi.upm.es/def/gdprif#I42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I42> <http://www.w3.org/2000/01/rdf-schema#label> "Processor Identity"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I43
+<https://protect.oeg.fi.upm.es/def/gdprif#I43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I43> <http://www.w3.org/2000/01/rdf-schema#label> "Processor Contact Details"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I44
+<https://protect.oeg.fi.upm.es/def/gdprif#I44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I44> <http://www.w3.org/2000/01/rdf-schema#label> "Processor Representative Identity"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I45
+<https://protect.oeg.fi.upm.es/def/gdprif#I45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I45> <http://www.w3.org/2000/01/rdf-schema#label> "Processor Representative Contact Details"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I46
+<https://protect.oeg.fi.upm.es/def/gdprif#I46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I46> <http://www.w3.org/2000/01/rdf-schema#label> "Nature of Data Breach"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I47
+<https://protect.oeg.fi.upm.es/def/gdprif#I47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I47> <http://www.w3.org/2000/01/rdf-schema#label> "Approximate Number of Data Subjects"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I48
+<https://protect.oeg.fi.upm.es/def/gdprif#I48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I48> <http://www.w3.org/2000/01/rdf-schema#label> "Approximate Number of Personal Data Records"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I49
+<https://protect.oeg.fi.upm.es/def/gdprif#I49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I49> <http://www.w3.org/2000/01/rdf-schema#label> "Consequences of Personal Data  Breach"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I5
+<https://protect.oeg.fi.upm.es/def/gdprif#I5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I5> <http://www.w3.org/2000/01/rdf-schema#label> "DPO Contact Details"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I50
+<https://protect.oeg.fi.upm.es/def/gdprif#I50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I50> <http://www.w3.org/2000/01/rdf-schema#label> "Measures to Address and Mitigate Effects of Data Breach"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I51
+<https://protect.oeg.fi.upm.es/def/gdprif#I51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I51> <http://www.w3.org/2000/01/rdf-schema#label> "Systematic Description of Processing Operations"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I52
+<https://protect.oeg.fi.upm.es/def/gdprif#I52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I52> <http://www.w3.org/2000/01/rdf-schema#label> "Assessment of the Necessity and Proportionality of the Processing Operations"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I53
+<https://protect.oeg.fi.upm.es/def/gdprif#I53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I53> <http://www.w3.org/2000/01/rdf-schema#label> "Assessment of the Risks to the Rights and Freedoms of Data Sujects"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I54
+<https://protect.oeg.fi.upm.es/def/gdprif#I54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I54> <http://www.w3.org/2000/01/rdf-schema#label> "Responsabilities of the Controller"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I55
+<https://protect.oeg.fi.upm.es/def/gdprif#I55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I55> <http://www.w3.org/2000/01/rdf-schema#label> "Responsabilities of the Processor"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I56
+<https://protect.oeg.fi.upm.es/def/gdprif#I56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I56> <http://www.w3.org/2000/01/rdf-schema#label> "Means of Processing"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I57
+<https://protect.oeg.fi.upm.es/def/gdprif#I57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I57> <http://www.w3.org/2000/01/rdf-schema#label> "Data Protection Impact Assessment"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I6
+<https://protect.oeg.fi.upm.es/def/gdprif#I6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I6> <http://www.w3.org/2000/01/rdf-schema#label> "Purposes"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I7
+<https://protect.oeg.fi.upm.es/def/gdprif#I7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I7> <http://www.w3.org/2000/01/rdf-schema#label> "Legal Basis"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I8
+<https://protect.oeg.fi.upm.es/def/gdprif#I8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I8> <http://www.w3.org/2000/01/rdf-schema#label> "Legitimate Interests"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#I9
+<https://protect.oeg.fi.upm.es/def/gdprif#I9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> .
+<https://protect.oeg.fi.upm.es/def/gdprif#I9> <http://www.w3.org/2000/01/rdf-schema#label> "Recipients"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem
+<https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#JC
+<https://protect.oeg.fi.upm.es/def/gdprif#JC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#JC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#LargeScaleProcessingOfSensitivePersonalData
+<https://protect.oeg.fi.upm.es/def/gdprif#LargeScaleProcessingOfSensitivePersonalData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#LargeScaleProcessingOfSensitivePersonalData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent> .
+<https://protect.oeg.fi.upm.es/def/gdprif#LargeScaleProcessingOfSensitivePersonalData> <http://www.w3.org/2000/01/rdf-schema#comment> "Processing of sensitive personal data (Article 9) and criminal data (Article 10) on large scale."@en .
+<https://protect.oeg.fi.upm.es/def/gdprif#LargeScaleProcessingOfSensitivePersonalData> <http://www.w3.org/2000/01/rdf-schema#label> "Large Scale Processing of Sensitive Personal Data"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#NDB
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#PC
+<https://protect.oeg.fi.upm.es/def/gdprif#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#PersonalDataBreach
+<https://protect.oeg.fi.upm.es/def/gdprif#PersonalDataBreach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#PersonalDataBreach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent> .
+<https://protect.oeg.fi.upm.es/def/gdprif#PersonalDataBreach> <http://www.w3.org/2000/01/rdf-schema#comment> "Non authorized disclosure of personal data which may put in risk the privacy and rights of the data subject regarding its personal data."@en .
+<https://protect.oeg.fi.upm.es/def/gdprif#PersonalDataBreach> <http://www.w3.org/2000/01/rdf-schema#label> "Personal Data Breach"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RA
+<https://protect.oeg.fi.upm.es/def/gdprif#RA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RDM
+<https://protect.oeg.fi.upm.es/def/gdprif#RDM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RDM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RDP
+<https://protect.oeg.fi.upm.es/def/gdprif#RDP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RDP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RE
+<https://protect.oeg.fi.upm.es/def/gdprif#RE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RI1
+<https://protect.oeg.fi.upm.es/def/gdprif#RI1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RI1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RI2
+<https://protect.oeg.fi.upm.es/def/gdprif#RI2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RI2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RN
+<https://protect.oeg.fi.upm.es/def/gdprif#RN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RO
+<https://protect.oeg.fi.upm.es/def/gdprif#RO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RR
+<https://protect.oeg.fi.upm.es/def/gdprif#RR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#RRP
+<https://protect.oeg.fi.upm.es/def/gdprif#RRP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RRP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder
+<https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#SystematicAndExtensiveAutomatedProcessing
+<https://protect.oeg.fi.upm.es/def/gdprif#SystematicAndExtensiveAutomatedProcessing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#SystematicAndExtensiveAutomatedProcessing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent> .
+<https://protect.oeg.fi.upm.es/def/gdprif#SystematicAndExtensiveAutomatedProcessing> <http://www.w3.org/2000/01/rdf-schema#comment> "Processing activities which rely on systematic and extensive automated decisions."@en .
+<https://protect.oeg.fi.upm.es/def/gdprif#SystematicAndExtensiveAutomatedProcessing> <http://www.w3.org/2000/01/rdf-schema#label> "Systematic and Extensive Automated Processing"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#SystematicMonitoringOfPublicAreas
+<https://protect.oeg.fi.upm.es/def/gdprif#SystematicMonitoringOfPublicAreas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#SystematicMonitoringOfPublicAreas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent> .
+<https://protect.oeg.fi.upm.es/def/gdprif#SystematicMonitoringOfPublicAreas> <http://www.w3.org/2000/01/rdf-schema#comment> "Systematic monitoring of public areas on large scale."@en .
+<https://protect.oeg.fi.upm.es/def/gdprif#SystematicMonitoringOfPublicAreas> <http://www.w3.org/2000/01/rdf-schema#label> "Systematic Monitoring of Public Areas"@en .
+# 
+# https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent
+<https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#CDB> <http://www.w3.org/2000/01/rdf-schema#comment> "Data controller must inform the data subject that a personal data breach occurred." .
+<https://protect.oeg.fi.upm.es/def/gdprif#CDB> <http://www.w3.org/2000/01/rdf-schema#label> "Communication of a Data Breach to the Data Subject" .
+<https://protect.oeg.fi.upm.es/def/gdprif#CDB> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#NotifyDataSubjectOfBreach> .
+<https://protect.oeg.fi.upm.es/def/gdprif#CDB> <http://www.w3.org/ns/odrl/2/obligation> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid1 <http://www.w3.org/ns/odrl/2/informedParty> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataSubject> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid1 <http://www.w3.org/ns/odrl/2/informingParty> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid1 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid1 <http://www.w3.org/ns/odrl/2/constraint> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid4 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid4 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid4 <http://www.w3.org/ns/odrl/2/rightOperand> <https://protect.oeg.fi.upm.es/def/gdprif#PersonalDataBreach> .
+_:genid1 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I40> .
+_:genid1 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I46> .
+_:genid1 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I49> .
+_:genid1 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I5> .
+_:genid1 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I50> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#CPr> <http://www.w3.org/2000/01/rdf-schema#comment> "Data controller has the permission to establish a contract with processors for the latter to carry out the processing of the personal data on behalf of them. Sub-processors can only be hired with the authorization of the controller and their obligations are the same as the ones established in the contract between controller and processor." .
+<https://protect.oeg.fi.upm.es/def/gdprif#CPr> <http://www.w3.org/2000/01/rdf-schema#label> "Contract with Processors" .
+<https://protect.oeg.fi.upm.es/def/gdprif#CPr> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#AppointmentOfProcessors> .
+<https://protect.oeg.fi.upm.es/def/gdprif#CPr> <http://www.w3.org/ns/odrl/2/permission> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Permission> .
+_:genid5 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/grantUse> .
+_:genid5 <http://www.w3.org/ns/odrl/2/constraint> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid6 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid6 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid6 <http://www.w3.org/ns/odrl/2/rightOperand> <https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenControllerProcessor> .
+_:genid5 <http://www.w3.org/ns/odrl/2/contractedParty> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataProcessor> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid5 <http://www.w3.org/ns/odrl/2/contractingParty> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid5 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I12> .
+_:genid5 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I17> .
+_:genid5 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I34> .
+_:genid5 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I35> .
+_:genid5 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I36> .
+_:genid5 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I37> .
+_:genid5 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I38> .
+_:genid5 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I39> .
+_:genid5 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I6> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#ControllerProcessorObligation> <http://www.w3.org/2000/01/rdf-schema#label> "Controller and Processor Obligation"@en .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#DPIA> <http://www.w3.org/2000/01/rdf-schema#comment> "Data controller has to draft a DPIA with the guidance of the data protection officer when doing automated evaluation of personal data, processing of sensitive categories of personal data or systematic monitoring of public areas." .
+<https://protect.oeg.fi.upm.es/def/gdprif#DPIA> <http://www.w3.org/2000/01/rdf-schema#label> "Data Protection Impact Assessment" .
+<https://protect.oeg.fi.upm.es/def/gdprif#DPIA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#FactorsForImpactAssessment> .
+<https://protect.oeg.fi.upm.es/def/gdprif#DPIA> <http://www.w3.org/ns/odrl/2/obligation> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid9 <http://www.w3.org/ns/odrl/2/informedParty> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataProtectionOfficer> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid9 <http://www.w3.org/ns/odrl/2/informingParty> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid9 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid9 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/modify> .
+_:genid9 <http://www.w3.org/ns/odrl/2/constraint> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid12 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid12 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/isAnyOf> .
+_:genid12 <http://www.w3.org/ns/odrl/2/rightOperand> _:genid13 .
+_:genid9 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I41> .
+_:genid9 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I51> .
+_:genid9 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I52> .
+_:genid9 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I53> .
+_:genid9 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I6> .
+_:genid9 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I8> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#DataSubjectRight> <http://www.w3.org/2000/01/rdf-schema#label> "Data Subject Right"@en .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#InformationalItem> <http://www.w3.org/2000/01/rdf-schema#label> "Informational Item"@en .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#JC> <http://www.w3.org/2000/01/rdf-schema#comment> "Joint controllers have the obligation to inform the data subject about their responsabilities related to the processing of the data subject's personal data, including the responsabilities of each controller regarding the data subject's rights." .
+<https://protect.oeg.fi.upm.es/def/gdprif#JC> <http://www.w3.org/2000/01/rdf-schema#label> "Joint Controllers Responsabilities" .
+<https://protect.oeg.fi.upm.es/def/gdprif#JC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#LiabilityOfJointController> .
+<https://protect.oeg.fi.upm.es/def/gdprif#JC> <http://www.w3.org/ns/odrl/2/obligation> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid14 <http://www.w3.org/ns/odrl/2/informedParty> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataSubject> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid14 <http://www.w3.org/ns/odrl/2/informingParty> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/GDPRtEXT#JointController> .
+_:genid14 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid14 <http://www.w3.org/ns/odrl/2/constraint> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid17 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid17 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid17 <http://www.w3.org/ns/odrl/2/rightOperand> <https://protect.oeg.fi.upm.es/def/gdprif#ContractBetweenJointControllers> .
+_:genid14 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I31> .
+_:genid14 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I32> .
+_:genid14 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I33> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/2000/01/rdf-schema#comment> "Data controller has to report a personal data breach to the supervisory authority and in the case it happens to the data processor it should be reported to the data controller." .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/2000/01/rdf-schema#label> "Notification of a Data Breach to the Supervisory Authority" .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#ReportDataBreach> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/ns/odrl/2/constraint> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid18 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid18 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid18 <http://www.w3.org/ns/odrl/2/rightOperand> <https://protect.oeg.fi.upm.es/def/gdprif#PersonalDataBreach> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/ns/odrl/2/obligation> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid19 <http://www.w3.org/ns/odrl/2/informedParty> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataProtectionAuthority> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid19 <http://www.w3.org/ns/odrl/2/informingParty> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/ns/odrl/2/obligation> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid22 <http://www.w3.org/ns/odrl/2/informedParty> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid22 <http://www.w3.org/ns/odrl/2/informingParty> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#dpv:DataProcessor> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid22 <http://www.w3.org/ns/odrl/2/consequence> _:genid25 .
+_:genid25 <http://www.w3.org/ns/odrl/2/informedParty> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataProtectionAuthority> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid25 <http://www.w3.org/ns/odrl/2/informingParty> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid25 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I17> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I37> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I40> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I46> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I47> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I48> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I49> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I5> .
+<https://protect.oeg.fi.upm.es/def/gdprif#NDB> <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I50> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#PC> <http://www.w3.org/2000/01/rdf-schema#comment> "Data controller has the obligation to consult with the supervisory authority when the DPIA illustrates that the processing will result in a high risk to the privacy of data subjects." .
+<https://protect.oeg.fi.upm.es/def/gdprif#PC> <http://www.w3.org/2000/01/rdf-schema#label> "Prior Consultation with the Supervisory Authority" .
+<https://protect.oeg.fi.upm.es/def/gdprif#PC> <http://www.w3.org/ns/odrl/2/obligation> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid28 <https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataProtectionAuthority> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid28 <https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid28 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid28 <http://www.w3.org/ns/odrl/2/constraint> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid31 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid31 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid31 <http://www.w3.org/ns/odrl/2/rightOperand> <https://protect.oeg.fi.upm.es/def/gdprif#HighRiskDPIA> .
+_:genid28 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I33> .
+_:genid28 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I41> .
+_:genid28 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I5> .
+_:genid28 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I54> .
+_:genid28 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I55> .
+_:genid28 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I56> .
+_:genid28 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I57> .
+_:genid28 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I6> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#RA> <http://www.w3.org/2000/01/rdf-schema#comment> "Data controller informs the data subject about its obligation to grant access to the data subject's personal data." .
+<https://protect.oeg.fi.upm.es/def/gdprif#RA> <http://www.w3.org/2000/01/rdf-schema#label> "Right of Access" .
+<https://protect.oeg.fi.upm.es/def/gdprif#RA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#RightToAccessPersonalData> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RA> <http://www.w3.org/ns/odrl/2/obligation> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid32 <https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid32 <https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataSubject> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid32 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid32 <http://www.w3.org/ns/odrl/2/constraint> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid35 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid35 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid35 <http://www.w3.org/ns/odrl/2/rightOperand> <http://www.w3.org/ns/dpv-gdpr#A15> .
+_:genid32 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I11> .
+_:genid32 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I12> .
+_:genid32 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I14> .
+_:genid32 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I16> .
+_:genid32 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I17> .
+_:genid32 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I18> .
+_:genid32 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I20> .
+_:genid32 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I21> .
+_:genid32 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I6> .
+_:genid32 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I9> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#RDM> <http://www.w3.org/2000/01/rdf-schema#comment> "Data subject has the right to request the data controller to not be subjected to decisions based solely on automated processing, including profiling." .
+<https://protect.oeg.fi.upm.es/def/gdprif#RDM> <http://www.w3.org/2000/01/rdf-schema#label> "Right to Object to Automated Decision Making" .
+<https://protect.oeg.fi.upm.es/def/gdprif#RDM> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#RightToNotBeEvaluatedThroughAutomatedProcessing> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RDM> <http://www.w3.org/ns/odrl/2/obligation> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid36 <https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid36 <https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataSubject> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid36 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid36 <http://www.w3.org/ns/odrl/2/constraint> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid39 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid39 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid39 <http://www.w3.org/ns/odrl/2/rightOperand> <http://www.w3.org/ns/dpv-gdpr#A22> .
+_:genid36 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I30> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#RDP> <http://www.w3.org/2000/01/rdf-schema#comment> "Data controller has the obligation to provide a copy of data subject's personal data to the data subject and also to transmit it to other controllers upon request of the data subject." .
+<https://protect.oeg.fi.upm.es/def/gdprif#RDP> <http://www.w3.org/2000/01/rdf-schema#label> "Right to Data Portability" .
+<https://protect.oeg.fi.upm.es/def/gdprif#RDP> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#RightOfDataPortability> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RDP> <http://www.w3.org/ns/odrl/2/obligation> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid40 <https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid40 <https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataSubject> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid40 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid40 <http://www.w3.org/ns/odrl/2/consequence> _:genid43 .
+_:genid43 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/grantUse> .
+_:genid43 <http://www.w3.org/ns/odrl/2/attributedParty> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#Recipient> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid43 <http://www.w3.org/ns/odrl/2/attributingParty> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid43 <http://www.w3.org/ns/odrl/2/refinement> _:genid46 .
+_:genid46 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid46 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/isAllOf> .
+_:genid46 <http://www.w3.org/ns/odrl/2/rightOperand> _:genid47 .
+_:genid40 <http://www.w3.org/ns/odrl/2/constraint> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid48 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid48 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid48 <http://www.w3.org/ns/odrl/2/rightOperand> <http://www.w3.org/ns/dpv-gdpr#A20> .
+_:genid40 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I21> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#RE> <http://www.w3.org/2000/01/rdf-schema#comment> "Data controller has the obligation to erase the data subject's personal data upon a fundamented request." .
+<https://protect.oeg.fi.upm.es/def/gdprif#RE> <http://www.w3.org/2000/01/rdf-schema#label> "Right to Erasure" .
+<https://protect.oeg.fi.upm.es/def/gdprif#RE> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#RightOfErasure> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RE> <http://www.w3.org/ns/odrl/2/obligation> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid49 <https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid49 <https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataSubject> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid49 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid49 <http://www.w3.org/ns/odrl/2/constraint> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid52 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid52 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/isAllOf> .
+_:genid52 <http://www.w3.org/ns/odrl/2/rightOperand> _:genid53 .
+_:genid49 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I24> .
+_:genid49 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I25> .
+_:genid49 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I26> .
+_:genid49 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I9> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#RI1> <http://www.w3.org/2000/01/rdf-schema#comment> "Data controller has the obligation to provide information to the data subject regarding personal data directly collected from the data subject."@en .
+<https://protect.oeg.fi.upm.es/def/gdprif#RI1> <http://www.w3.org/2000/01/rdf-schema#label> "Right to be Informed (collected from the Data Subject)"@en .
+<https://protect.oeg.fi.upm.es/def/gdprif#RI1> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#RightToBasicInformationAboutProcessing> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RI1> <http://www.w3.org/ns/odrl/2/obligation> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid54 <https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid54 <https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataSubject> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid54 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid54 <http://www.w3.org/ns/odrl/2/constraint> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid57 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid57 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid57 <http://www.w3.org/ns/odrl/2/rightOperand> <http://www.w3.org/ns/dpv-gdpr#A13> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I1> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I10> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I11> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I12> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I13> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I14> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I15> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I16> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I17> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I19> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I2> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I3> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I4> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I5> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I6> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I7> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I8> .
+_:genid54 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I9> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#RI2> <http://www.w3.org/2000/01/rdf-schema#comment> "Data controller has the obligation to provide information to the data subject regarding its personal data collected from other sources." .
+<https://protect.oeg.fi.upm.es/def/gdprif#RI2> <http://www.w3.org/2000/01/rdf-schema#label> "Right to be Informed (collected from other sources)" .
+<https://protect.oeg.fi.upm.es/def/gdprif#RI2> <http://www.w3.org/ns/odrl/2/obligation> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid58 <https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid58 <https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataSubject> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid58 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid58 <http://www.w3.org/ns/odrl/2/constraint> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid61 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid61 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid61 <http://www.w3.org/ns/odrl/2/rightOperand> <http://www.w3.org/ns/dpv-gdpr#A14> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I1> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I10> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I11> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I12> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I13> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I14> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I16> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I17> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I18> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I19> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I2> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I3> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I4> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I5> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I6> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I7> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I8> .
+_:genid58 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I9> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#RN> <http://www.w3.org/2000/01/rdf-schema#comment> "Data controller has the obligation to inform the data subject about the rectification, erasure or restriction of processing of its personal data and about any recipients to whom the personal data was disclosed to. The data controller also has to inform the recipients to whom the data was disclosed to so that they procede with the rectification, erasure or restriction of processing of the dat asubject's personal data." .
+<https://protect.oeg.fi.upm.es/def/gdprif#RN> <http://www.w3.org/2000/01/rdf-schema#label> "Right to be Notified" .
+<https://protect.oeg.fi.upm.es/def/gdprif#RN> <http://www.w3.org/ns/odrl/2/obligation> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid62 <https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid62 <https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataSubject> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid62 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid62 <http://www.w3.org/ns/odrl/2/consequence> _:genid65 .
+_:genid65 <http://www.w3.org/ns/odrl/2/informedParty> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#Recipient> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid65 <http://www.w3.org/ns/odrl/2/informingParty> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid65 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid62 <http://www.w3.org/ns/odrl/2/constraint> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid68 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid68 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid68 <http://www.w3.org/ns/odrl/2/rightOperand> <http://www.w3.org/ns/dpv-gdpr#A19> .
+_:genid62 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I25> .
+_:genid62 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I9> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#RO> <http://www.w3.org/2000/01/rdf-schema#comment> "Data subject has the right to object to any processing performed by the data controller, including for direct marketing purposes" .
+<https://protect.oeg.fi.upm.es/def/gdprif#RO> <http://www.w3.org/2000/01/rdf-schema#label> "Right to Object" .
+<https://protect.oeg.fi.upm.es/def/gdprif#RO> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#RightToObjectToProcessing> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RO> <http://www.w3.org/ns/odrl/2/obligation> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid69 <https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid69 <https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataSubject> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid69 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid69 <http://www.w3.org/ns/odrl/2/constraint> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid72 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid72 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid72 <http://www.w3.org/ns/odrl/2/rightOperand> <http://www.w3.org/ns/dpv-gdpr#A21> .
+_:genid69 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I29> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC> <http://www.w3.org/2000/01/rdf-schema#comment> "Data controller should provide a record of its processing activities to the supervisory authority upon request" .
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC> <http://www.w3.org/2000/01/rdf-schema#label> "Records of Processing Activities of Data Controllers" .
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#MaintainRecordsOfProcessingActivities> .
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DC> <http://www.w3.org/ns/odrl/2/obligation> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid73 <https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid73 <https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataProtectionAuthority> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid73 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid73 <http://www.w3.org/ns/odrl/2/constraint> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid76 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid76 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid76 <http://www.w3.org/ns/odrl/2/rightOperand> <https://protect.oeg.fi.upm.es/def/gdprif#ComplianceMonitoring> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I1> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I10> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I11> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I17> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I2> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I20> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I3> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I31> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I32> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I37> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I4> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I40> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I41> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I5> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I6> .
+_:genid73 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I9> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP> <http://www.w3.org/2000/01/rdf-schema#comment> "Data processor should provide a record of its processing activities to the supervisory authority upon request." .
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP> <http://www.w3.org/2000/01/rdf-schema#label> "Records of Processing Activities of Data Processors" .
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#MaintainRecordsOfProcessingActivities> .
+<https://protect.oeg.fi.upm.es/def/gdprif#ROPA-DP> <http://www.w3.org/ns/odrl/2/obligation> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid77 <https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataProcessor> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid77 <https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataProtectionAuthority> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid77 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid77 <http://www.w3.org/ns/odrl/2/constraint> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid80 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid80 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid80 <http://www.w3.org/ns/odrl/2/rightOperand> <https://protect.oeg.fi.upm.es/def/gdprif#ComplianceMonitoring> .
+_:genid77 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I1> .
+_:genid77 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I10> .
+_:genid77 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I2> .
+_:genid77 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I20> .
+_:genid77 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I3> .
+_:genid77 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I36> .
+_:genid77 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I4> .
+_:genid77 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I40> .
+_:genid77 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I41> .
+_:genid77 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I42> .
+_:genid77 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I43> .
+_:genid77 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I44> .
+_:genid77 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I45> .
+_:genid77 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I5> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#RR> <http://www.w3.org/2000/01/rdf-schema#comment> "Data controller has the obligation to rectify the data subject's personal data upon request." .
+<https://protect.oeg.fi.upm.es/def/gdprif#RR> <http://www.w3.org/2000/01/rdf-schema#label> "Right to Rectification" .
+<https://protect.oeg.fi.upm.es/def/gdprif#RR> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#RightToRectification> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RR> <http://www.w3.org/ns/odrl/2/obligation> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid81 <https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid81 <https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataSubject> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid81 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid81 <http://www.w3.org/ns/odrl/2/constraint> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid84 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid84 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid84 <http://www.w3.org/ns/odrl/2/rightOperand> <http://www.w3.org/ns/dpv-gdpr#A16> .
+_:genid81 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I22> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#RRP> <http://www.w3.org/2000/01/rdf-schema#comment> "Data controller has the obligation to cease processing the data subject's personal data upon a fundamented request." .
+<https://protect.oeg.fi.upm.es/def/gdprif#RRP> <http://www.w3.org/2000/01/rdf-schema#label> "Right to Restriction of Processing" .
+<https://protect.oeg.fi.upm.es/def/gdprif#RRP> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/GDPRtEXT#RightToRestrictProcessing> .
+<https://protect.oeg.fi.upm.es/def/gdprif#RRP> <http://www.w3.org/ns/odrl/2/obligation> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Obligation> .
+_:genid85 <https://protect.oeg.fi.upm.es/def/gdprif#isAnsweredBy> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataController> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid85 <https://protect.oeg.fi.upm.es/def/gdprif#isRequestedBy> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dpv#DataSubject> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party> .
+_:genid85 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/inform> .
+_:genid85 <http://www.w3.org/ns/odrl/2/constraint> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint> .
+_:genid88 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/event> .
+_:genid88 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/isAllOf> .
+_:genid88 <http://www.w3.org/ns/odrl/2/rightOperand> _:genid89 .
+_:genid85 <http://www.w3.org/ns/odrl/2/target> <https://protect.oeg.fi.upm.es/def/gdprif#I25> .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#Stakeholder> <http://www.w3.org/2000/01/rdf-schema#label> "GDPR Stakeholder"@en .
+# 
+<https://protect.oeg.fi.upm.es/def/gdprif#TriggerEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Trigger Event"@en .
+# 
+# Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/
