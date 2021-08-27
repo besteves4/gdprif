@@ -1,52 +1,48 @@
 <h2 id="desc" class="list">GDPR Information flows: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<span class="markdown">
-    The GDPR Information Flows (GDPRIF) ontology aims to provide a tool to refer to the rights and obligations established in the 
-    <a href="https://gdpr-info.eu/" target="_blank">General Data Protection Regulation (GDPR)</a> in terms of information flows 
-    that occur between GDPR stakeholders, where a stakeholder can be classified as 
-    a <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">data subject</a>, 
-    a <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">data controller</a>, 
-    a <a href="https://gdpr-info.eu/art-28-gdpr/" target="_blank">data processor</a>, 
-    a <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">recipient</a>, 
-    a <a href="https://gdpr-info.eu/art-51-gdpr/" target="_blank">supervisory authority</a> 
-    or a <a href="https://gdpr-info.eu/recitals/no-97/" target="_blank">data protection officer</a>.
-    In this context, an information flow refers to information that must be transmitted from one stakeholder to the other 
-    so that a right or obligation can be invoked and granted. 
-    <br>
-    The following figure provides an overview of the modelled information flows.
-    It is the result of an analysis of GDPR Chapter’s III and IV 
-    (<a href="https://gdpr-info.eu/chapter-3/" target="_blank">Rights of the data subject</a> and 
-    <a href="https://gdpr-info.eu/chapter-4/" target="_blank">Controller and processor</a>, respectively), where each article 
-    was manually studied to search for interactions between stakeholders and, when a flow of information was identified between more
-    than one stakeholder, the respective interaction was recorded in the diagram.
-    The bidirectional arrows represent a right or obligation in which a request for information and respective response is expected, 
-    while the unidirectional arrows represent only a request or notification and no reply is expected.
-</span>
+The GDPR Information Flows (GDPRIF) ontology aims to provide a tool to refer to the rights and obligations established in the 
+<a href="https://gdpr-info.eu/" target="_blank">General Data Protection Regulation (GDPR)</a> in terms of information flows 
+that occur between GDPR stakeholders, where a stakeholder can be classified as 
+a <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">data subject</a>, 
+a <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">data controller</a>, 
+a <a href="https://gdpr-info.eu/art-28-gdpr/" target="_blank">data processor</a>, 
+a <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">recipient</a>, 
+a <a href="https://gdpr-info.eu/art-51-gdpr/" target="_blank">supervisory authority</a> 
+or a <a href="https://gdpr-info.eu/recitals/no-97/" target="_blank">data protection officer</a>.
+In this context, an information flow refers to information that must be transmitted from one stakeholder to the other 
+so that a right or obligation can be invoked and granted. 
+<br>
+The following figure provides an overview of the modelled information flows.
+It is the result of an analysis of GDPR Chapter’s III and IV 
+(<a href="https://gdpr-info.eu/chapter-3/" target="_blank">Rights of the data subject</a> and 
+<a href="https://gdpr-info.eu/chapter-4/" target="_blank">Controller and processor</a>, respectively), where each article 
+was manually studied to search for interactions between stakeholders and, when a flow of information was identified between more
+than one stakeholder, the respective interaction was recorded in the diagram.
+The bidirectional arrows represent a right or obligation in which a request for information and respective response is expected, 
+while the unidirectional arrows represent only a request or notification and no reply is expected.
 <br><br>
 <div align="center">
     <img src="https://protect.oeg.fi.upm.es/def/gdprif/information_flow.png" />
 </div>
 <br><br>
-<span class="markdown">
-    Therefore, GDPRIF's main objective is to provide a way to model the relationships between GDPR stakeholders, the identified items of information 
-    that need to be exchanged, GDPR rights and obligations, and also to specify the flows of information and the events that trigger such flows. 
-    For instance, if a data subject invokes its 
-    <a href="https://gdpr-info.eu/art-17-gdpr/" target="_blank">right to erasure</a>, along with the request 
-    that triggers the flow of information, there is the need to represent information related to the ground on which the request 
-    is based (GDPR's Article 17.1), and the controller needs to transmit this information to the other controllers processing the same personal data.
-    <br>
-    Furthermore, the GDPR rights and obligations that were classified as an information flow were then studied with the purpose of assessing 
-    which informational elements need to be represented in order to support this stream of information.
-    For instance, if a personal data breach occurs, the controller is obliged to 
-    <a href="https://gdpr-info.eu/art-34-gdpr/" target="_blank">communicate it to data subject</a> and provide information 
-    regarding the <a href="https://protect.oeg.fi.upm.es/def/gdprif#I46" target="_blank">nature of the data breach</a>, 
-    the <a href="https://protect.oeg.fi.upm.es/def/gdprif#I40" target="_blank">identity</a> and 
-    <a href="https://protect.oeg.fi.upm.es/def/gdprif#I5" target="_blank">contact details</a> of the data protection officer,
-    detailed information about the likely <a href="https://protect.oeg.fi.upm.es/def/gdprif#I49" target="_blank">consequences of the personal data breach</a> 
-    and the <a href="https://protect.oeg.fi.upm.es/def/gdprif#I50" target="_blank">measures used to address and mitigate the data breach's effects</a>.
-    <br>
-    A complete list of elements of information was manually collected for each identified information flow and is systematised in the following table.
-    In addition, for each described item, a list of GDPR’s articles where they are mentioned is also presented for readers to be able to refer to the regulation.
-</span>
+Therefore, GDPRIF's main objective is to provide a way to model the relationships between GDPR stakeholders, the identified items of information 
+that need to be exchanged, GDPR rights and obligations, and also to specify the flows of information and the events that trigger such flows. 
+For instance, if a data subject invokes its 
+<a href="https://gdpr-info.eu/art-17-gdpr/" target="_blank">right to erasure</a>, along with the request 
+that triggers the flow of information, there is the need to represent information related to the ground on which the request 
+is based (GDPR's Article 17.1), and the controller needs to transmit this information to the other controllers processing the same personal data.
+<br>
+Furthermore, the GDPR rights and obligations that were classified as an information flow were then studied with the purpose of assessing 
+which informational elements need to be represented in order to support this stream of information.
+For instance, if a personal data breach occurs, the controller is obliged to 
+<a href="https://gdpr-info.eu/art-34-gdpr/" target="_blank">communicate it to data subject</a> and provide information 
+regarding the <a href="https://protect.oeg.fi.upm.es/def/gdprif#I46" target="_blank">nature of the data breach</a>, 
+the <a href="https://protect.oeg.fi.upm.es/def/gdprif#I40" target="_blank">identity</a> and 
+<a href="https://protect.oeg.fi.upm.es/def/gdprif#I5" target="_blank">contact details</a> of the data protection officer,
+detailed information about the likely <a href="https://protect.oeg.fi.upm.es/def/gdprif#I49" target="_blank">consequences of the personal data breach</a> 
+and the <a href="https://protect.oeg.fi.upm.es/def/gdprif#I50" target="_blank">measures used to address and mitigate the data breach's effects</a>.
+<br>
+A complete list of elements of information was manually collected for each identified information flow and is systematised in the following table.
+In addition, for each described item, a list of GDPR’s articles where they are mentioned is also presented for readers to be able to refer to the regulation.
 <br><br>
 <div id="ns" align="center">
     <table>
@@ -233,9 +229,7 @@
     </table>
 </div>
 <br><br>
-<span class="markdown">
-    The following figure provides an overview of the developed ontology.
-</span>
+The following figure provides an overview of the developed ontology.
 <br><br>
 <div align="center">
     <img src="https://protect.oeg.fi.upm.es/def/gdprif/base.png" />
