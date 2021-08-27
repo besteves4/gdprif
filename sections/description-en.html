@@ -236,9 +236,42 @@ The following figure provides an overview of the developed ontology.
 </div>
 
 <div id="examples">
-    <h3 id="ns" class="list">GDPRIF's rights and obligations as ODRL policies</h3>
+    <h3 id="odrl" class="list">GDPRIF's rights and obligations as ODRL policies</h3>
     In GDPRIF, GDPR's rights and obligations are modelled as <a href="https://www.w3.org/TR/odrl-model/" target="_blank">ODRL</a> 
     policies. These policies can be complemented by <a href="https://w3.org/ns/dpv" target="_blank">DPV</a>, 
     <a href="https://w3.org/ns/dpv-gdpr" target="_blank">DPV-GDPR</a> and 
     <a href="https://w3id.org/GDPRtEXT" target="_blank">GDPRtEXT</a> to refer to the informational items that have to be represented.
+    <br>
+    For instance, the following example combines these vocabularies to describe the need of a certain controller to inform a specific data subject 
+    in the case of a personal data breach event. A data controller that maintains the obligations in this structured form can more easily fulfill 
+    them if the event does happen.
+</div>
+<br>
+<div>
+    <code>
+        gdprif:communicateDataBreach<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;rdfs:comment "Data controller A informs Beatriz Esteves about the <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;existence of a personal data breach";<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;rdfs:seeAlso gdprtext:NotifyDataSubjectOfBreach ;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;odrl:obligation [<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;odrl:informedParty [<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a dpv:DataSubject, odrl:Party ;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpv:hasName "Beatriz Esteves" .<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] ;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;odrl:informingParty _:ControllerA ;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;odrl:assignee _:ControllerA ;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;odrl:action odrl:inform ;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;odrl:target gdprif:I5, gdprif:I40, gdprif:I46, gdprif:I49, gdprif:I50 ;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;odrl:constraint [<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a odrl:Constraint ;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;odrl:leftOperand odrl:event ;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;odrl:operator odrl:eq ;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;odrl:rightOperand gdprif:PersonalDataBreach ;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] .<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;] .<br>
+            <br>
+        _:ControllerA<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;a dvp:DataController, odrl:Party ;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;dpv:hasName "Controller A" .
+    </code>
 </div>
