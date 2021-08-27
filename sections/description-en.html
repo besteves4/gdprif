@@ -1,6 +1,243 @@
 <h2 id="desc" class="list">GDPR Information flows: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
-The following figure provides an overview of the ontology.</span>
-
-<img src="https://protect.oeg.fi.upm.es/def/gdprif/base.png" />
+    The GDPR Information Flows (GDPRIF) ontology aims to provide a tool to refer to the rights and obligations established in the 
+    <a href="https://gdpr-info.eu/" target="_blank">General Data Protection Regulation (GDPR)</a> in terms of information flows 
+    that occur between GDPR stakeholders, where a stakeholder can be classified as 
+    a <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">data subject</a>, 
+    a <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">data controller</a>, 
+    a <a href="https://gdpr-info.eu/art-28-gdpr/" target="_blank">data processor</a>, 
+    a <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">recipient</a>, 
+    a <a href="https://gdpr-info.eu/art-51-gdpr/" target="_blank">supervisory authority</a> 
+    or a <a href="https://gdpr-info.eu/recitals/no-97/" target="_blank">data protection officer</a>.
+    In this context, an information flow refers to information that must be transmitted from one stakeholder to the other 
+    so that a right or obligation can be invoked and granted. 
+    <br>
+    The following figure provides an overview of the modelled information flows.
+    It is the result of an analysis of GDPR Chapter’s III and IV 
+    (<a href="https://gdpr-info.eu/chapter-3/" target="_blank">Rights of the data subject</a> and 
+    <a href="https://gdpr-info.eu/chapter-4/" target="_blank">Controller and processor</a>, respectively), where each article 
+    was manually studied to search for interactions between stakeholders and, when a flow of information was identified between more
+    than one stakeholder, the respective interaction was recorded in the diagram.
+    The bidirectional arrows represent a right or obligation in which a request for information and respective response is expected, 
+    while the unidirectional arrows represent only a request or notification and no reply is expected.
+</span>
+<br><br>
+<div align="center">
+    <img src="https://protect.oeg.fi.upm.es/def/gdprif/information_flow.png" />
+</div>
+<br><br>
+<span class="markdown">
+    Therefore, GDPRIF's main objective is to provide a way to model the relationships between GDPR stakeholders, the identified items of information 
+    that need to be exchanged, GDPR rights and obligations, and also to specify the flows of information and the events that trigger such flows. 
+    For instance, if a data subject invokes its 
+    <a href="https://gdpr-info.eu/art-17-gdpr/" target="_blank">right to erasure</a>, along with the request 
+    that triggers the flow of information, there is the need to represent information related to the ground on which the request 
+    is based (GDPR's Article 17.1), and the controller needs to transmit this information to the other controllers processing the same personal data.
+    <br>
+    Furthermore, the GDPR rights and obligations that were classified as an information flow were then studied with the purpose of assessing 
+    which informational elements need to be represented in order to support this stream of information.
+    For instance, if a personal data breach occurs, the controller is obliged to 
+    <a href="https://gdpr-info.eu/art-34-gdpr/" target="_blank">communicate it to data subject</a> and provide information 
+    regarding the <a href="https://protect.oeg.fi.upm.es/def/gdprif#I46" target="_blank">nature of the data breach</a>, 
+    the <a href="https://protect.oeg.fi.upm.es/def/gdprif#I40" target="_blank">identity</a> and 
+    <a href="https://protect.oeg.fi.upm.es/def/gdprif#I5" target="_blank">contact details</a> of the data protection officer,
+    detailed information about the likely <a href="https://protect.oeg.fi.upm.es/def/gdprif#I49" target="_blank">consequences of the personal data breach</a> 
+    and the <a href="https://protect.oeg.fi.upm.es/def/gdprif#I50" target="_blank">measures used to address and mitigate the data breach's effects</a>.
+    <br>
+    A complete list of elements of information was manually collected for each identified information flow and is systematised in the following table.
+    In addition, for each described item, a list of GDPR’s articles where they are mentioned is also presented for readers to be able to refer to the regulation.
+</span>
+<br><br>
+<div id="ns" align="center">
+    <table>
+        <tr>
+            <td>I*</td>
+            <td>informational items - <b>GDPR Article(s)</b></td>
+            <td>I*</td>
+            <td>informational items - <b>GDPR Article(s)</b></td>
+        </tr>
+        <tr>
+            <td>I1</td>
+            <td>Controller identity - <b>13.1(a), 14.1(a), 30.1(a), 30.2(a)</b></td>
+            <td>I30</td>
+            <td>Grounds to not comply with right not to be subjected to decision making - <b>22.2</b></td>
+        </tr>
+        <tr>
+            <td>I2</td>
+            <td>Controller contact details - <b>13.1(a), 14.1(a), 30.1(a), 30.2(a)</b></td>
+            <td>I31</td>
+            <td>Joint controller identity - <b>26, 30.1(a)</b></td>
+        </tr>
+        <tr>
+            <td>I3</td>
+            <td>Controller's representative identity - <b>13.1(a), 14.1(a), 30.1(a), 30.2(a)</b></td>
+            <td>I32</td>
+            <td>Joint controller contact details - <b>26, 30.1(a)</b></td>
+        </tr>
+        <tr>
+            <td>I4</td>
+            <td>Controller's representative contact details - <b>13.1(a), 14.1(a), 30.1(a), 30.2(a)</b></td>
+            <td>I33</td>
+            <td>Responsibilities of joint controllers - <b>26, 36.3(a)</b></td>
+        </tr>
+        <tr>
+            <td>I5</td>
+            <td>DPO contact details - <b>13.1(b), 14.1(b), 30.1(a), 30.2(a), 33.3(b), 34.2, 36.3(d)</b></td>
+            <td>I34</td>
+            <td>Subject-matter of the processing - <b>28.3</b></td>
+        </tr>
+        <tr>
+            <td>I6</td>
+            <td>Purposes of the processing - <b>13.1(c), 14.1(c), 15.1(a), 28.3, 30.1(b), 35.7(a), 36.3(b)</b></td>
+            <td>I35</td>
+            <td>Duration of the processing - <b>28.3</b></td>
+        </tr>
+        <tr>
+            <td>I7</td>
+            <td>Legal basis of the processing - <b>6.1, 9.2, 13.1(c), 14.1(c)</b></td>
+            <td>I36</td>
+            <td>Categories of processing - <b>28.3, 30.2(b)</b></td>
+        </tr>
+        <tr>
+            <td>I8</td>
+            <td>Legitimate interests - <b>6.1(f), 13.1(d), 14.2(b), 35.7(a)</b></td>
+            <td>I37</td>
+            <td>Categories of data subjects - <b>28.3, 30.1(c), 33.3(a)</b></td>
+        </tr>
+        <tr>
+            <td>I9</td>
+            <td>Recipients / categories of recipients - <b>13.1(e), 14.1(e), 15.1(c), 17.2, 19, 30.1(d)</b></td>
+            <td>I38</td>
+            <td>Obligations of the controller - <b>28.3</b></td>
+        </tr>
+        <tr>
+            <td>I10</td>
+            <td>Transfers to third countries - <b>13.1(f), 14.1(f), 30.1(e), 30.2(c), 46, 47, 49.1</b></td>
+            <td>I39</td>
+            <td>Obligations of the processor - <b>28.3</b></td>
+        </tr>
+        <tr>
+            <td>I11</td>
+            <td>Retention period - <b>13.2(a), 14.2(a), 15.1(d), 30.1(f)</b></td>
+            <td>I40</td>
+            <td>DPO identity - <b>30.1(a), 30.2(a), 33.3(b), 34.2</b></td>
+        </tr>
+        <tr>
+            <td>I12</td>
+            <td>Data subject's rights - <b>13.2(b), 14.2(c), 15.1(e), 28.3</b></td>
+            <td>I41</td>
+            <td>Technical and organizational security measures - <b>30.1(g), 30.2(d), 32.1, 35.7(d), 36.3(c)</b></td>
+        </tr>
+        <tr>
+            <td>I13</td>
+            <td>Right to withdraw consent - <b>6.1(a), 9.2(a), 13.2(c), 14.2(d)</b></td>
+            <td>I42</td>
+            <td>Processor identity - <b>30.2(a)</b></td>
+        </tr>
+        <tr>
+            <td>I14</td>
+            <td>Right to lodge a complaint - <b>13.2(d), 14.2(e), 15.1(f)</b></td>
+            <td>I43</td>
+            <td>Processor contact details - <b>30.2(a)</b></td>
+        </tr>
+        <tr>
+            <td>I15</td>
+            <td>Statutory or contractual obligation details - <b>13.2(e)</b></td>
+            <td>I44</td>
+            <td>Processor's representative identity - <b>30.2(a)</b></td>
+        </tr>
+        <tr>
+            <td>I16</td>
+            <td>Existence of automated decision making - <b>13.2(f), 14.2(g), 15.1(h), 22.1, 22.4</b></td>
+            <td>I45</td>
+            <td>Processor's representative contact details - <b>30.2(a)</b></td>
+        </tr>
+        <tr>
+            <td>I17</td>
+            <td>Categories of personal data - <b>9.1, 14.1(d), 15.1(b), 28.3, 30.1(c), 33.3(a)</b></td>
+            <td>I46</td>
+            <td>Nature of data breach - <b>33.3(a), 34.2</b></td>
+        </tr>
+        <tr>
+            <td>I18</td>
+            <td>Source of personal data - <b>14.2(f), 15.1(g)</b></td>
+            <td>I47</td>
+            <td>Approximate number of data subjects - <b>33.3(a)</b></td>
+        </tr>
+        <tr>
+            <td>I19</td>
+            <td>Grounds to not comply with information right - <b>13.4, 14.5</b></td>
+            <td>I48</td>
+            <td>Approximate number of personal data records - <b>33.3(a)</b></td>
+        </tr>
+        <tr>
+            <td>I20</td>
+            <td>Safeguards related to the transfer to a third country - <b>15.2, 30.1(e), 30.2(c)</b></td>
+            <td>I49</td>
+            <td>Consequences of personal data breach - <b>33.3(c), 34.2</b></td>
+        </tr>
+        <tr>
+            <td>I21</td>
+            <td>Copy of personal data - <b>15.3, 20.1</b></td>
+            <td>I50</td>
+            <td>Measures to address and mitigate data breach's effects - <b>33.3(d), 34.2</b></td>
+        </tr>
+        <tr>
+            <td>I22</td>
+            <td>Request to complete incomplete personal data - <b>16</b></td>
+            <td>I51</td>
+            <td>Systematic description of processing operations - <b>35.7(a)</b></td>
+        </tr>
+        <tr>
+            <td>I23</td>
+            <td>Grounds to request erasure of data - <b>17.1</b></td>
+            <td>I52</td>
+            <td>Assessment of the necessity and proportionality of the processing operations - <b>35.7(b)</b></td>
+        </tr>
+        <tr>
+            <td>I24</td>
+            <td>Technical measures taken to erase data - <b>17.2</b></td>
+            <td>I53</td>
+            <td>Assessment of the risks to the rights and freedoms of data subjects - <b>35.7(c)</b></td>
+        </tr>
+        <tr>
+            <td>I25</td>
+            <td>Recipients contact details - <b>17.2, 19</b></td>
+            <td>I54</td>
+            <td>Responsibilities of the controller - <b>36.3(a)</b></td>
+        </tr>
+        <tr>
+            <td>I26</td>
+            <td>Grounds to not comply with right of erasure - <b>17.3</b></td>
+            <td>I55</td>
+            <td>Responsibilities of the processors - <b>36.3(a)</b></td>
+        </tr>
+        <tr>
+            <td>I27</td>
+            <td>Grounds to request restriction of processing - <b>18.1</b></td>
+            <td>I56</td>
+            <td>Means of processing - <b>36.3(b)</b></td>
+        </tr>
+        <tr>
+            <td>I28</td>
+            <td>Transfer data directly between controllers - <b>20.2</b></td>
+            <td>I57</td>
+            <td>Data protection impact assessment (DPIA) - <b>35, 36.3(e)</b></td>
+        </tr>
+        <tr>
+            <td>I29</td>
+            <td>Grounds to not comply with right to object - <b>21</b></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+<br><br>
+<span class="markdown">
+    The following figure provides an overview of the developed ontology.
+</span>
+<br><br>
+<div align="center">
+    <img src="https://protect.oeg.fi.upm.es/def/gdprif/base.png" />
+</div>
 
